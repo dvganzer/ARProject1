@@ -9,11 +9,17 @@ public class CarrotGrowth : MonoBehaviour
     public GameObject Carrot;
     public Transform DirtPlace;
     public Transform SproutPlace;
+    public Transform CarrotPos;
 
     void Start()
     {
 
-
+        
+    }
+    private void Update()
+    {
+        SproutPlace.position = DirtPlace.position;
+        CarrotPos.position = DirtPlace.position;
     }
     public void Begin()
     {
@@ -35,19 +41,21 @@ public class CarrotGrowth : MonoBehaviour
             Debug.Log(count);
             if (count == 10)
             {
+
                 Debug.Log("Sprouted");
-                Instantiate(CarrotSprout, DirtPlace.position, DirtPlace.rotation);
+                Instantiate(CarrotSprout);
+                SproutPlace.position = DirtPlace.position;
                 Destroy(Dirt);
 
 
             }
             if (count == 20)
             {
-
-                Destroy(CarrotSprout, 1);
+                Instantiate(Carrot);
+                Destroy(CarrotSprout);
                 Debug.Log("Collect!");
 
-                Instantiate(Carrot, SproutPlace.position, SproutPlace.rotation);
+               
             }
         }
         OnDisable();
