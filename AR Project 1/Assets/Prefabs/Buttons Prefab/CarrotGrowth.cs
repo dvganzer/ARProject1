@@ -16,11 +16,7 @@ public class CarrotGrowth : MonoBehaviour
 
         
     }
-    private void Update()
-    {
-        SproutPlace.position = DirtPlace.position;
-        CarrotPos.position = DirtPlace.position;
-    }
+
     public void Begin()
     {
         StartCoroutine(Sprout());
@@ -45,14 +41,15 @@ public class CarrotGrowth : MonoBehaviour
                 Debug.Log("Sprouted");
                 Instantiate(CarrotSprout);
                 SproutPlace.position = DirtPlace.position;
-                Destroy(Dirt);
+                
 
 
             }
             if (count == 20)
             {
                 Instantiate(Carrot);
-                Destroy(CarrotSprout);
+                CarrotPos.position = DirtPlace.position;
+                DestroyImmediate(CarrotSprout);
                 Debug.Log("Collect!");
 
                
