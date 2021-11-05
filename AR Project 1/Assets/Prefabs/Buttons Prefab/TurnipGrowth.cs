@@ -10,6 +10,7 @@ public class TurnipGrowth : MonoBehaviour
     public GameObject Turnip;
     public Transform DirtPlace;
     public Transform SproutPlace;
+    public Transform CarrotPos;
 
     void Start()
     {
@@ -37,18 +38,17 @@ public class TurnipGrowth : MonoBehaviour
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                Instantiate(TurnipSprout, DirtPlace.position, DirtPlace.rotation);
-                Destroy(TuDirt);
-
+                Instantiate(TurnipSprout);
+                SproutPlace.position = DirtPlace.position;
 
             }
             if (count == 20)
             {
 
-                Destroy(TurnipSprout,1);              
+                Instantiate(Turnip);
+                CarrotPos.position = DirtPlace.position;
+                DestroyImmediate(TurnipSprout);
                 Debug.Log("Collect!");
-                
-                Instantiate(Turnip, SproutPlace.position, SproutPlace.rotation);
             }
         }
         OnDisable();

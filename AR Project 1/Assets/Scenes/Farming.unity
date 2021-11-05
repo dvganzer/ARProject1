@@ -1830,6 +1830,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 7387143694624022395, guid: c95ac8d6e9c8e794aa1614fa64ea2f25, type: 3}
+  prefabpos: {fileID: 343009831987719022, guid: c95ac8d6e9c8e794aa1614fa64ea2f25,
+    type: 3}
 --- !u!114 &1325218965259434395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1929,7 +1931,9 @@ MonoBehaviour:
   Tomato: {fileID: 4593810542592173404, guid: 7b902b9783266ed408278594c4adb651, type: 3}
   DirtPlace: {fileID: 343009831987719022, guid: c95ac8d6e9c8e794aa1614fa64ea2f25,
     type: 3}
-  SproutPlace: {fileID: 343009831987719022, guid: c95ac8d6e9c8e794aa1614fa64ea2f25,
+  SproutPlace: {fileID: 5303987000409082554, guid: 85cab100fd5867346bd86be06e2bfd2a,
+    type: 3}
+  CarrotPos: {fileID: 5158135848768271220, guid: 7b902b9783266ed408278594c4adb651,
     type: 3}
 --- !u!1 &2091898349849888770
 GameObject:
@@ -1963,6 +1967,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 6483434280086167938, guid: ad908c2a3c50b2e439c44e3390e45cd8, type: 3}
+  prefabpos: {fileID: 4305226505567114647, guid: ad908c2a3c50b2e439c44e3390e45cd8,
+    type: 3}
 --- !u!114 &2091898349849888772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2076,7 +2082,9 @@ MonoBehaviour:
   Turnip: {fileID: 3388463549390709119, guid: 88a6d389e0ef73b4b93570095411c8cb, type: 3}
   DirtPlace: {fileID: 4305226505567114647, guid: ad908c2a3c50b2e439c44e3390e45cd8,
     type: 3}
-  SproutPlace: {fileID: 4305226505567114647, guid: ad908c2a3c50b2e439c44e3390e45cd8,
+  SproutPlace: {fileID: 4680138647963313656, guid: ff66d4c189da6c04293ee21a21fcfac2,
+    type: 3}
+  CarrotPos: {fileID: 5155754843337275651, guid: 88a6d389e0ef73b4b93570095411c8cb,
     type: 3}
 --- !u!114 &4242162576156779112
 MonoBehaviour:
@@ -2205,6 +2213,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 717429570340535001, guid: 7c73e2b657abc0d4fa327ed0a01a8eb8, type: 3}
+  prefabpos: {fileID: 7760309047496986316, guid: 7c73e2b657abc0d4fa327ed0a01a8eb8,
+    type: 3}
 --- !u!114 &4242162576156779116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2224,6 +2234,8 @@ MonoBehaviour:
   DirtPlace: {fileID: 7760309047496986316, guid: 7c73e2b657abc0d4fa327ed0a01a8eb8,
     type: 3}
   SproutPlace: {fileID: 7760309047496986316, guid: 7c73e2b657abc0d4fa327ed0a01a8eb8,
+    type: 3}
+  CarrotPos: {fileID: 1271900591643094329, guid: cc847af85e196354dade24f72b217055,
     type: 3}
 --- !u!1001 &4501659428981975696
 PrefabInstance:
@@ -2421,6 +2433,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 6256878382270007267, guid: d5221bd117622f441a3b1d1ec49e733d, type: 3}
+  prefabpos: {fileID: 3788108034292233206, guid: d5221bd117622f441a3b1d1ec49e733d,
+    type: 3}
 --- !u!114 &4616180071618107587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2535,7 +2549,9 @@ MonoBehaviour:
     type: 3}
   DirtPlace: {fileID: 3788108034292233206, guid: d5221bd117622f441a3b1d1ec49e733d,
     type: 3}
-  SproutPlace: {fileID: 3788108034292233206, guid: d5221bd117622f441a3b1d1ec49e733d,
+  SproutPlace: {fileID: 4568531165878806957, guid: ffdbdb3cbf2cb8e4991564fdf94077b6,
+    type: 3}
+  CarrotPos: {fileID: 1489499847414265243, guid: 73b2c698c3f8d5548bb1628f1437d9c6,
     type: 3}
 --- !u!1001 &5162357300218680142
 PrefabInstance:
@@ -2714,7 +2730,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3780663550005548016, guid: 30c0cc34cd01f8f478b5648e8a40a54e, type: 3}
-  prefabpos: {fileID: 0}
+  prefabpos: {fileID: 6210860694172461029, guid: 30c0cc34cd01f8f478b5648e8a40a54e,
+    type: 3}
 --- !u!1 &5385841664088283253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2847,7 +2864,9 @@ MonoBehaviour:
   Corn: {fileID: 6517601803591209015, guid: 4bb60e82681ae514a95cdf144c79b787, type: 3}
   DirtPlace: {fileID: 6210860694172461029, guid: 30c0cc34cd01f8f478b5648e8a40a54e,
     type: 3}
-  SproutPlace: {fileID: 6210860694172461029, guid: 30c0cc34cd01f8f478b5648e8a40a54e,
+  SproutPlace: {fileID: 2212085630178106594, guid: 77009f5926121274c9b6e1039d5ad9d9,
+    type: 3}
+  CarrotPos: {fileID: 2178815797383640616, guid: 4bb60e82681ae514a95cdf144c79b787,
     type: 3}
 --- !u!1001 &5655463603079321196
 PrefabInstance:

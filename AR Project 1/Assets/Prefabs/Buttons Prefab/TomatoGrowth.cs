@@ -12,6 +12,7 @@ public class TomatoGrowth : MonoBehaviour
     public GameObject Tomato;
     public Transform DirtPlace;
     public Transform SproutPlace;
+    public Transform CarrotPos;
 
     void Start()
     {
@@ -39,18 +40,18 @@ public class TomatoGrowth : MonoBehaviour
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                Instantiate(TomatoSprout, DirtPlace.position, DirtPlace.rotation);
-                Destroy(TDirt);
+                Instantiate(TomatoSprout);
+                SproutPlace.position = DirtPlace.position;
 
 
             }
             if (count == 20)
             {
 
-                Destroy(TomatoSprout, 1);
+                Instantiate(Tomato);
+                CarrotPos.position = DirtPlace.position;
+                DestroyImmediate(TomatoSprout);
                 Debug.Log("Collect!");
-
-                Instantiate(Tomato, SproutPlace.position, SproutPlace.rotation);
             }
         }
         OnDisable();

@@ -9,6 +9,7 @@ public class CornGrowth : MonoBehaviour
     public GameObject Corn;
     public Transform DirtPlace;
     public Transform SproutPlace;
+    public Transform CarrotPos;
 
     void Start()
     {
@@ -36,18 +37,19 @@ public class CornGrowth : MonoBehaviour
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                Instantiate(CornSprout, DirtPlace.position, DirtPlace.rotation);
-                Destroy(CDirt);
+                Instantiate(CornSprout);
+                SproutPlace.position = DirtPlace.position;
+              
 
 
             }
             if (count == 20)
             {
 
-                Destroy(CornSprout, 1);
+                Instantiate(Corn);
+                CarrotPos.position = DirtPlace.position;
+                DestroyImmediate(CornSprout);
                 Debug.Log("Collect!");
-
-                Instantiate(Corn, SproutPlace.position, SproutPlace.rotation);
             }
         }
         OnDisable();

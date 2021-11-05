@@ -12,6 +12,7 @@ public class PumpkinGrowth : MonoBehaviour
     public GameObject Pumpkin;
     public Transform DirtPlace;
     public Transform SproutPlace;
+    public Transform CarrotPos;
 
     void Start()
     {
@@ -39,18 +40,17 @@ public class PumpkinGrowth : MonoBehaviour
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                Instantiate(PumpkinSprout, DirtPlace.position, DirtPlace.rotation);
-                Destroy(PDirt);
+                Instantiate(PumpkinSprout);
+                SproutPlace.position = DirtPlace.position;
 
 
             }
             if (count == 20)
             {
-
-                Destroy(PumpkinSprout, 1);
+                Instantiate(Pumpkin);
+                CarrotPos.position = DirtPlace.position;
+                DestroyImmediate(PumpkinSprout);
                 Debug.Log("Collect!");
-
-                Instantiate(Pumpkin, SproutPlace.position, SproutPlace.rotation);
             }
         }
         OnDisable();

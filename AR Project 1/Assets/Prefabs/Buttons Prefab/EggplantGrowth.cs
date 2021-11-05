@@ -12,6 +12,7 @@ public class EggplantGrowth : MonoBehaviour
     public GameObject Eggplant;
     public Transform DirtPlace;
     public Transform SproutPlace;
+    public Transform CarrotPos;
 
     void Start()
     {
@@ -39,18 +40,18 @@ public class EggplantGrowth : MonoBehaviour
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                Instantiate(EggplantSprout, DirtPlace.position, DirtPlace.rotation);
-                Destroy(EDirt);
+                Instantiate(EggplantSprout);
+                SproutPlace.position = DirtPlace.position;
 
 
             }
             if (count == 20)
             {
 
-                Destroy(EggplantSprout, 1);
+                Instantiate(Eggplant);
+                CarrotPos.position = DirtPlace.position;
+                DestroyImmediate(EggplantSprout);
                 Debug.Log("Collect!");
-
-                Instantiate(Eggplant, SproutPlace.position, SproutPlace.rotation);
             }
         }
         OnDisable();

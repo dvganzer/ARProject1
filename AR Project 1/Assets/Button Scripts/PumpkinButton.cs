@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class PumpkinButton : MonoBehaviour
 {
-    // Start is called before the first frame update
     public GameObject prefab;
+    public Transform prefabpos;
 
     public void Instantiate()
     {
         Instantiate(prefab);
+        prefabpos.position = Vector3.forward * 2f;
     }
 }

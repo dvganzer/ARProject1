@@ -10,6 +10,6 @@ public class CarrotButton : MonoBehaviour
     public void Instantiate()
     {
         Instantiate(prefab);
-        prefabpos.position = Vector3.forward * 1f;
+        prefabpos.position = Vector3.forward * 2f;
     }
 }
