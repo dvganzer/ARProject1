@@ -11,119 +11,144 @@ D:\Unity\2020.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/AR Project 1
+D:/GDD 314/ARProject1/ARProject1/AR Project 1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63337
-Successfully changed project path to: D:/AR Project 1
-D:/AR Project 1
+60472
+Successfully changed project path to: D:/GDD 314/ARProject1/ARProject1/AR Project 1
+D:/GDD 314/ARProject1/ARProject1/AR Project 1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/AR Project 1/Assets
+[Subsystems] Discovering subsystems at path D:/GDD 314/ARProject1/ARProject1/AR Project 1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
     Vendor:   
     VRAM:     5991 MB
-    Driver:   30.0.14.9613
+    Driver:   30.0.14.9649
 Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001798 seconds.
+Registered in 0.001679 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 40.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
+- Completed reload, in  1.261 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1332ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (432ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (399ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (157ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (72ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003795 seconds.
+Registered in 0.003760 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to resolve plugin root directory. Re-install Lunar Mobile Console to fix the issue
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+LunarConsoleEditorInternal.EditorConstants:get_PluginRootDirectory () (at D:/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:83)
+LunarConsoleEditorInternal.EditorConstants:get_PluginEditorRootDirectory () (at D:/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:69)
+LunarConsoleEditorInternal.EditorConstants:get_EditorPathAndroidAAR () (at D:/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:60)
+LunarConsoleEditorInternal.AndroidPlugin:SetEnabled (bool,bool) (at D:/AR Project 1/Assets/LunarConsole/Editor/AndroidPlugin.cs:38)
+LunarConsoleEditorInternal.Autorun:.cctor () (at D:/AR Project 1/Assets/LunarConsole/Editor/Autorun.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: D:/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs Line: 83)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LunarConsolePluginInternal.FileUtils.FixAssetPath (System.String path) [0x00000] in D:\AR Project 1\Assets\LunarConsole\Scripts\Utils\FileUtils.cs:71 
+  at LunarConsoleEditorInternal.AndroidPlugin.SetEnabled (System.Boolean enabled, System.Boolean retrying) [0x0000f] in D:\AR Project 1\Assets\LunarConsole\Editor\AndroidPlugin.cs:38 
+  at LunarConsoleEditorInternal.Autorun..cctor () [0x00000] in D:\AR Project 1\Assets\LunarConsole\Editor\Autorun.cs:40 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.309 seconds
+- Completed reload, in  1.217 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1310ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (1218ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1084ms)
-			LoadAssemblies (127ms)
+		EndReloadAssembly (1013ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
+			SetupTypeCache (293ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (488ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (453ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (353ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2420 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.6 MB.
-System memory in use after: 98.8 MB.
+Unloading 2429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.4 MB.
 
-Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 2732.
-Total: 3.311400 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.099900 ms MarkObjects: 2.792000 ms  DeleteObjects: 0.187000 ms)
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 2742.
+Total: 3.123300 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.104200 ms MarkObjects: 2.713500 ms  DeleteObjects: 0.087600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,130 +161,318 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (911ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2259 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 3.238400 ms (FindLiveObjects: 0.202200 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.912700 ms  DeleteObjects: 0.031800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003734 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1122ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (954ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2748.
+Total: 3.549900 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.146400 ms MarkObjects: 3.077300 ms  DeleteObjects: 0.066600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
 Received Import Request.
-  path: Assets/Cartoon_Farm_Crops
-  artifactKey: Guid(df1bc751b59b1da4da3662939331b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops using Guid(df1bc751b59b1da4da3662939331b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f522e35ee401e5120044d50b11bc8b3') in 0.042687 seconds 
-  Import took 0.116506 seconds .
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(156449c108210d84ba2bafb5856cda47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(156449c108210d84ba2bafb5856cda47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caae666e91cbac19f0f9190dc94d2f99') in 0.256020 seconds 
+  Import took 0.275443 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.806420 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs
-  artifactKey: Guid(4b282f46fd391504d8c6ce4658b86d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs using Guid(4b282f46fd391504d8c6ce4658b86d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355622a4ad15886b94cc27c961ebcd5f') in 0.008119 seconds 
-  Import took 0.044901 seconds .
+  Time since last request: 45.073076 seconds.
+  path: Assets/LunarConsole/Editor/Android
+  artifactKey: Guid(4c88bbc61497f459c83c2f0f7a717ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/Android using Guid(4c88bbc61497f459c83c2f0f7a717ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd33d6de94ea3256bbf3ae0b486416c3') in 0.007039 seconds 
+  Import took 0.010660 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.911221 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard
-  artifactKey: Guid(0f43114e13e8f10469e2aa034cbd874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard using Guid(0f43114e13e8f10469e2aa034cbd874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad44a31d0b588d85f95e847e663dc0f4') in 0.006519 seconds 
-  Import took 0.038864 seconds .
+  Time since last request: 56.468762 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Free/Controllers
+  artifactKey: Guid(1dd1aa472e8014f55bf3550f988e7311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/iOS/Free/Controllers using Guid(1dd1aa472e8014f55bf3550f988e7311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb40e4f7589fa523597dc23fbddd9a1') in 0.006048 seconds 
+  Import took 0.027494 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.047861 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Fruit.prefab
-  artifactKey: Guid(2cf13a738fc434c46bda5ebf7ca44756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Fruit.prefab using Guid(2cf13a738fc434c46bda5ebf7ca44756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d5d09e8b746178f834461723f8d313') in 0.731783 seconds 
-  Import took 0.752241 seconds .
+  Time since last request: 1.953402 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Free/Controllers/Actions
+  artifactKey: Guid(e573c3c249f264a08aebf05df54202b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/iOS/Free/Controllers/Actions using Guid(e573c3c249f264a08aebf05df54202b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22eef8cdc4852658dd50be0301ff307d') in 0.006599 seconds 
+  Import took 0.010779 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Dirt_Pile.prefab
-  artifactKey: Guid(c26cacf51e485c54b95fdbf9ad976ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Dirt_Pile.prefab using Guid(c26cacf51e485c54b95fdbf9ad976ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62db3bcffd7ab399b5e1500d97dff9c7') in 0.160364 seconds 
-  Import took 0.185589 seconds .
+  Time since last request: 8.314722 seconds.
+  path: Assets/LunarConsole/Editor/Autorun.cs
+  artifactKey: Guid(a76cb7272dee04012a51d51648e95531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/Autorun.cs using Guid(a76cb7272dee04012a51d51648e95531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a073abd0788ac30bf20c7f73d56ddae') in 0.010149 seconds 
+  Import took 0.027261 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Plant.prefab
-  artifactKey: Guid(30319199574ca3644bf3898bb5cac486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Plant.prefab using Guid(30319199574ca3644bf3898bb5cac486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3f6477fe2bd9846115c58f49362dae') in 0.164437 seconds 
-  Import took 0.183636 seconds .
+  Time since last request: 0.379350 seconds.
+  path: Assets/LunarConsole/Editor/BuildPostProcessor.cs
+  artifactKey: Guid(e299aa1d646a8434c88ec185974ea661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/BuildPostProcessor.cs using Guid(e299aa1d646a8434c88ec185974ea661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0b90577a1a369180166fb2d276ca61') in 0.005987 seconds 
+  Import took 0.015347 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Fruit.prefab
-  artifactKey: Guid(92417dd2b68fd6147a711fb2af4275b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Fruit.prefab using Guid(92417dd2b68fd6147a711fb2af4275b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e695b5f8e9079cffa24d7a70235ebf4') in 0.190582 seconds 
-  Import took 0.212876 seconds .
+  Time since last request: 0.647427 seconds.
+  path: Assets/LunarConsole/Editor/Compatibility.cs
+  artifactKey: Guid(f1b1621a313ce2a42ad2fe08aee9d4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/Compatibility.cs using Guid(f1b1621a313ce2a42ad2fe08aee9d4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751497cb9450260bcdea3e4aaf11369a') in 0.006557 seconds 
+  Import took 0.010086 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Plant.prefab
-  artifactKey: Guid(97c7589824dbbb24cbc2b95a9345ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Plant.prefab using Guid(97c7589824dbbb24cbc2b95a9345ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863bbaeefa87cd7e5efb51a3a418a8d6') in 0.241133 seconds 
-  Import took 0.246500 seconds .
+  Time since last request: 0.438785 seconds.
+  path: Assets/LunarConsole/Editor/EditorConstants.cs
+  artifactKey: Guid(a98e8898eee0f452680136bc0f8524a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/EditorConstants.cs using Guid(a98e8898eee0f452680136bc0f8524a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f5cc2e3b3b1b73bb5bc18153b4672d') in 0.006853 seconds 
+  Import took 0.010832 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Plant.prefab
-  artifactKey: Guid(56b36da289d9a9e4cb37c5f588e23748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Plant.prefab using Guid(56b36da289d9a9e4cb37c5f588e23748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c105aebdedef8662a3f2de442b1809c4') in 0.122090 seconds 
-  Import took 0.148099 seconds .
+  Time since last request: 3.561800 seconds.
+  path: Assets/LunarConsole/Editor/Log.cs
+  artifactKey: Guid(4b80e26d23d9647789671185f4ded259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/Log.cs using Guid(4b80e26d23d9647789671185f4ded259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31681ae9ff1a171492d3b889f0458019') in 0.005890 seconds 
+  Import took 0.009405 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Plant.prefab
-  artifactKey: Guid(1c8776a0b36cd9a4f813bf0d2d59d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Plant.prefab using Guid(1c8776a0b36cd9a4f813bf0d2d59d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a65eb3a32d2be8f7e9bef2fcdafc54') in 0.156802 seconds 
-  Import took 0.176030 seconds .
+  Time since last request: 16.897389 seconds.
+  path: Assets/LunarConsole/Editor/UI
+  artifactKey: Guid(734ebf2e216f64271b27dc62b5e92c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/UI using Guid(734ebf2e216f64271b27dc62b5e92c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0312cba048ebb79a66edb1ed723872') in 0.006058 seconds 
+  Import took 0.009413 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Fruit.prefab
-  artifactKey: Guid(0adfa404918648e42a1fb073ef9010d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Fruit.prefab using Guid(0adfa404918648e42a1fb073ef9010d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be201a535a8e4aa5ae0586f280706a') in 0.147983 seconds 
-  Import took 0.151267 seconds .
+  Time since last request: 2.160451 seconds.
+  path: Assets/LunarConsole/Editor/Legacy
+  artifactKey: Guid(b0cb1771d92263149a49b077f292ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/Legacy using Guid(b0cb1771d92263149a49b077f292ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ded775c787bd3d237644dafb76ee5f') in 0.006152 seconds 
+  Import took 0.009497 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Fruit.prefab
-  artifactKey: Guid(ad3b2f45225bb0c4f8f80eacd5111af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Fruit.prefab using Guid(ad3b2f45225bb0c4f8f80eacd5111af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cbe773d9572ea89f1e0169d035dc78') in 0.160290 seconds 
-  Import took 0.163711 seconds .
+  Time since last request: 1.297654 seconds.
+  path: Assets/LunarConsole/Editor/Legacy/LunarConsoleLegacyActionsEditor.cs
+  artifactKey: Guid(8ee2594af279d40b7a9b5df24bca99b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/Legacy/LunarConsoleLegacyActionsEditor.cs using Guid(8ee2594af279d40b7a9b5df24bca99b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d32efe236675e7648fc8f56f7e09cb2') in 0.005685 seconds 
+  Import took 0.009948 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Fruit.prefab
-  artifactKey: Guid(9c0476b14d8c518499bcc0adff155ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Fruit.prefab using Guid(9c0476b14d8c518499bcc0adff155ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc68a294e65c18a478ba26ffaf22b7d') in 0.147109 seconds 
-  Import took 0.157138 seconds .
+  Time since last request: 0.001376 seconds.
+  path: Assets/LunarConsole/Editor/Legacy/LunarConsoleLegacyActionsEditor.cs
+  artifactKey: Guid(8ee2594af279d40b7a9b5df24bca99b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/Legacy/LunarConsoleLegacyActionsEditor.cs using Guid(8ee2594af279d40b7a9b5df24bca99b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d32efe236675e7648fc8f56f7e09cb2') in 0.002479 seconds 
+  Import took 0.006136 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Plant.prefab
-  artifactKey: Guid(f0666abddd74e5644ac4cf977d74e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Plant.prefab using Guid(f0666abddd74e5644ac4cf977d74e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18e6d1eb8fb598e096b36ceaaae3bc4') in 0.125292 seconds 
-  Import took 0.154043 seconds .
+  Time since last request: 9.439476 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Free/Console/Plugin/LUConsolePluginImp.m
+  artifactKey: Guid(cba724e88f8104dd48546366656f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/iOS/Free/Console/Plugin/LUConsolePluginImp.m using Guid(cba724e88f8104dd48546366656f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15afc103753a2818424122fea0611791') in 0.008432 seconds 
+  Import took 0.026522 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Plant.prefab
-  artifactKey: Guid(323e5d46aea633c42bfadb66b36971d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Plant.prefab using Guid(323e5d46aea633c42bfadb66b36971d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f650bcf9a181bd51291d27e35a776d') in 0.160417 seconds 
-  Import took 0.166391 seconds .
+  Time since last request: 0.004989 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Free/Console/Plugin/LUConsolePluginImp.m
+  artifactKey: Guid(cba724e88f8104dd48546366656f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/iOS/Free/Console/Plugin/LUConsolePluginImp.m using Guid(cba724e88f8104dd48546366656f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15afc103753a2818424122fea0611791') in 0.002199 seconds 
+  Import took 0.005639 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Fruit.prefab
-  artifactKey: Guid(8490d29919917de4ca0c5297d93090d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Fruit.prefab using Guid(8490d29919917de4ca0c5297d93090d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1576e0bc3d74119dc48d4f41991c0a2') in 0.140546 seconds 
-  Import took 0.143932 seconds .
+  Time since last request: 8.405590 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Free/Console/Plugin/LUConsolePluginImp.m
+  artifactKey: Guid(cba724e88f8104dd48546366656f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/iOS/Free/Console/Plugin/LUConsolePluginImp.m using Guid(cba724e88f8104dd48546366656f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36482f59490d0062a0f2703c42646f93') in 0.002561 seconds 
+  Import took 0.006158 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 5.654760 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Free/Console/Plugin/LUConsolePluginImp.m
+  artifactKey: Guid(cba724e88f8104dd48546366656f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LunarConsole/Editor/iOS/Free/Console/Plugin/LUConsolePluginImp.m using Guid(cba724e88f8104dd48546366656f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494edfabadf1fa5895f59592d340ed2a') in 0.002910 seconds 
+  Import took 0.006395 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1099ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (923ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2791.
+Total: 3.129300 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.720000 ms  DeleteObjects: 0.057100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
