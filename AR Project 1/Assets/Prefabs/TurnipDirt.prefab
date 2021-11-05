@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8080774459146403292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1324718119087016393}
+  - component: {fileID: 7176067563703086887}
+  - component: {fileID: 2820441207482105024}
+  - component: {fileID: 810042086668875090}
+  - component: {fileID: 1070831651324130280}
+  m_Layer: 0
+  m_Name: TurnipDirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1324718119087016393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080774459146403292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7176067563703086887
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080774459146403292}
+  m_Mesh: {fileID: 4300008, guid: fbd33e75d8d4bf9479c9cb59e83a9e37, type: 3}
+--- !u!23 &2820441207482105024
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080774459146403292}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 29a286d2dc90be241a18e462c6b29a5c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &810042086668875090
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080774459146403292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300008, guid: fbd33e75d8d4bf9479c9cb59e83a9e37, type: 3}
+--- !u!114 &1070831651324130280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080774459146403292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553e6d15f27219546828c4e3582551ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CarrotSprout: {fileID: 1000013081511698, guid: 20a97bb13c3ef18478cf9c86535b1e9b,
+    type: 3}
+  CornSprout: {fileID: 1000012844397656, guid: a97ffd75102541b46b48cffc80ef3da0, type: 3}
+  EggplantSprout: {fileID: 1000011654160144, guid: fa6407b600577284bb8840b157c7d1e3,
+    type: 3}
+  PumpkinSprout: {fileID: 1000010157407516, guid: 85cae589c09bb234d907a2ea8d0bac98,
+    type: 3}
+  TomatoSprout: {fileID: 1000011516977654, guid: 1cee73a22ae3bff49a094a5883eabd3c,
+    type: 3}
+  TurnipSprout: {fileID: 1000013676697600, guid: 61b0f6b970bd324438f2ffc56c6ddf14,
+    type: 3}
+  Carrot_Button: {fileID: 683509653545417631, guid: 120ec2d2fe7423b4e983fc108a174960,
+    type: 3}
+  Corn_Button: {fileID: 5655463601701992991, guid: c991d057e4076664d92c864bdab96854,
+    type: 3}
+  Eggplant_Button: {fileID: 7374603354938210704, guid: 37c9b29ccfe999646bd20cae0df812ef,
+    type: 3}
+  Pumpkin_Button: {fileID: 5162357300094934805, guid: 8928af51312d62341b7a3a006cb5aab7,
+    type: 3}
+  Tomato_Button: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
+    type: 3}
+  Turnip_Button: {fileID: 4501659428773442527, guid: 2f83d2c8743551f47a92bb1e17027c3a,
+    type: 3}
