@@ -935,6 +935,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2237724285182489953, guid: 4e5c4c108940b5c469c064477dd6b03b, type: 3}
+  prefabpos: {fileID: 9028323018368991604, guid: 4e5c4c108940b5c469c064477dd6b03b,
+    type: 3}
 --- !u!114 &1386434218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,7 +1006,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_ARSessionOrigin: {fileID: 0}
+  m_ARSessionOrigin: {fileID: 40919615}
   m_PlacementPrefab: {fileID: 2237724285182489953, guid: 4e5c4c108940b5c469c064477dd6b03b,
     type: 3}
   m_FallbackLayerMask:
@@ -1897,7 +1899,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_ARSessionOrigin: {fileID: 0}
+  m_ARSessionOrigin: {fileID: 40919615}
   m_PlacementPrefab: {fileID: 7387143694624022395, guid: c95ac8d6e9c8e794aa1614fa64ea2f25,
     type: 3}
   m_FallbackLayerMask:
@@ -2030,7 +2032,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_ARSessionOrigin: {fileID: 0}
+  m_ARSessionOrigin: {fileID: 40919615}
   m_PlacementPrefab: {fileID: 6483434280086167938, guid: ad908c2a3c50b2e439c44e3390e45cd8,
     type: 3}
   m_FallbackLayerMask:
@@ -2145,7 +2147,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_ARSessionOrigin: {fileID: 0}
+  m_ARSessionOrigin: {fileID: 40919615}
   m_PlacementPrefab: {fileID: 717429570340535001, guid: 7c73e2b657abc0d4fa327ed0a01a8eb8,
     type: 3}
   m_FallbackLayerMask:
@@ -2488,7 +2490,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_ARSessionOrigin: {fileID: 0}
+  m_ARSessionOrigin: {fileID: 40919615}
   m_PlacementPrefab: {fileID: 6256878382270007267, guid: d5221bd117622f441a3b1d1ec49e733d,
     type: 3}
   m_FallbackLayerMask:
@@ -2712,6 +2714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3780663550005548016, guid: 30c0cc34cd01f8f478b5648e8a40a54e, type: 3}
+  prefabpos: {fileID: 0}
 --- !u!1 &5385841664088283253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2814,7 +2817,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_ARSessionOrigin: {fileID: 0}
+  m_ARSessionOrigin: {fileID: 40919615}
   m_PlacementPrefab: {fileID: 3780663550005548016, guid: 30c0cc34cd01f8f478b5648e8a40a54e,
     type: 3}
   m_FallbackLayerMask:
