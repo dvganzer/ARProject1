@@ -4,19 +4,12 @@ using UnityEngine;
 
 public class PumpkinGrowth : MonoBehaviour
 {
-
- 
-
     public GameObject PDirt;
     public GameObject PumpkinSprout;
     public GameObject Pumpkin;
-    public Transform DirtPlace;
-    public Transform SproutPlace;
-    public Transform CarrotPos;
-
     void Start()
     {
-
+      
 
     }
     public void Begin()
@@ -39,17 +32,16 @@ public class PumpkinGrowth : MonoBehaviour
             Debug.Log(count);
             if (count == 10)
             {
-                Debug.Log("Sprouted");
-                Instantiate(PumpkinSprout);
-                SproutPlace.position = DirtPlace.position;
+                PumpkinSprout.SetActive(true);
+               
 
 
             }
             if (count == 20)
             {
-                Instantiate(Pumpkin);
-                CarrotPos.position = DirtPlace.position;
-                DestroyImmediate(PumpkinSprout);
+                PumpkinSprout.SetActive(false);
+                Pumpkin.SetActive(true);
+              
                 Debug.Log("Collect!");
             }
         }

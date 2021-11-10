@@ -7,18 +7,20 @@ public class CarrotGrowth : MonoBehaviour
     public GameObject Dirt;
     public GameObject CarrotSprout;
     public GameObject Carrot;
-    public Transform DirtPlace;
-    public Transform SproutPlace;
-    public Transform CarrotPos;
 
     void Start()
     {
+        CarrotSprout.SetActive(false);
+        Carrot.SetActive(false);
 
+    }
+    private void Update()
+    {
         
     }
-
     public void Begin()
     {
+
         StartCoroutine(Sprout());
     }
 
@@ -29,33 +31,38 @@ public class CarrotGrowth : MonoBehaviour
 
     IEnumerator Sprout(float countTime = 1f)
     {
-        int count = 0;
-        while (count < 20)
+        if (Dirt.tag == "CarrotDirt(All)(Clone)")
         {
-            yield return new WaitForSeconds(countTime);
-            count++;
-            Debug.Log(count);
-            if (count == 10)
+            int count = 0;
+            while (count < 20)
             {
+                yield return new WaitForSeconds(countTime);
+                count++;
+                Debug.Log(count);
+                if (count == 10)
+                {
 
-                Debug.Log("Sprouted");
-                Instantiate(CarrotSprout);
-                SproutPlace.position = DirtPlace.position;
-                
+                    Debug.Log("Sprouted");
+                    CarrotSprout.SetActive(true);
 
 
+
+                }
+                if (count == 20)
+                {
+                    CarrotSprout.SetActive(false);
+                    Carrot.SetActive(true);
+
+                    Debug.Log("Collect!");
+
+
+                }
             }
-            if (count == 20)
-            {
-                Instantiate(Carrot);
-                CarrotPos.position = DirtPlace.position;
-                DestroyImmediate(CarrotSprout);
-                Debug.Log("Collect!");
-
-               
-            }
+            OnDisable();
         }
-        OnDisable();
+
+
+        
     }
 
 }

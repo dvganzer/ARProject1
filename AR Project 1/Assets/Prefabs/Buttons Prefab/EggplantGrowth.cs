@@ -4,19 +4,12 @@ using UnityEngine;
 
 public class EggplantGrowth : MonoBehaviour
 {
-
-
-
     public GameObject EDirt;
     public GameObject EggplantSprout;
     public GameObject Eggplant;
-    public Transform DirtPlace;
-    public Transform SproutPlace;
-    public Transform CarrotPos;
-
     void Start()
     {
-
+      
 
     }
     public void Begin()
@@ -40,17 +33,13 @@ public class EggplantGrowth : MonoBehaviour
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                Instantiate(EggplantSprout);
-                SproutPlace.position = DirtPlace.position;
-
-
+                EggplantSprout.SetActive(true);
             }
             if (count == 20)
             {
 
-                Instantiate(Eggplant);
-                CarrotPos.position = DirtPlace.position;
-                DestroyImmediate(EggplantSprout);
+                EggplantSprout.SetActive(false);
+                Eggplant.SetActive(true);         
                 Debug.Log("Collect!");
             }
         }

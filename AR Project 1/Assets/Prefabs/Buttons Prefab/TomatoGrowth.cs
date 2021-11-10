@@ -4,19 +4,12 @@ using UnityEngine;
 
 public class TomatoGrowth : MonoBehaviour
 {
-
-  
-
     public GameObject TDirt;
     public GameObject TomatoSprout;
     public GameObject Tomato;
-    public Transform DirtPlace;
-    public Transform SproutPlace;
-    public Transform CarrotPos;
-
     void Start()
     {
-
+       
 
     }
     public void Begin()
@@ -40,17 +33,14 @@ public class TomatoGrowth : MonoBehaviour
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                Instantiate(TomatoSprout);
-                SproutPlace.position = DirtPlace.position;
-
-
+               TomatoSprout.SetActive(true);       
             }
             if (count == 20)
             {
 
-                Instantiate(Tomato);
-                CarrotPos.position = DirtPlace.position;
-                DestroyImmediate(TomatoSprout);
+                TomatoSprout.SetActive(false);
+                Tomato.SetActive(true);
+                
                 Debug.Log("Collect!");
             }
         }
