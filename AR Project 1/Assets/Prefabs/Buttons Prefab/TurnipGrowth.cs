@@ -8,6 +8,7 @@ public class TurnipGrowth : MonoBehaviour
     public GameObject TuDirt;
     public GameObject TurnipSprout;
     public GameObject Turnip;
+    private GameObject newTurnip;
     void Start()
     {
        
@@ -31,19 +32,24 @@ public class TurnipGrowth : MonoBehaviour
             yield return new WaitForSeconds(countTime);
             count++;
             Debug.Log(count);
+            if (count == 1)
+            {
+                Debug.Log("Planted");
+                newTurnip = Instantiate(TuDirt);
+            }
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                TurnipSprout.SetActive(true);
-                
+                newTurnip.transform.GetChild(1).gameObject.SetActive(true);
+
 
             }
             if (count == 20)
             {
 
-                TurnipSprout.SetActive(false);
-                Turnip.SetActive(true);
-              
+                newTurnip.transform.GetChild(1).gameObject.SetActive(false);
+                newTurnip.transform.GetChild(0).gameObject.SetActive(true);
+
                 Debug.Log("Collect!");
             }
         }

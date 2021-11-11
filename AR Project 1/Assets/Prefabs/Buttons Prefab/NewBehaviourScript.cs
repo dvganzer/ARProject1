@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CornGrowth : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     public GameObject CDirt;
     public GameObject CornSprout;
     public GameObject Corn;
+    private GameObject newCorn;
 
 
     void Start()
     {
-       
+
 
     }
     public void Begin()
@@ -32,10 +33,15 @@ public class CornGrowth : MonoBehaviour
             yield return new WaitForSeconds(countTime);
             count++;
             Debug.Log(count);
+            if (count == 1)
+            {
+                Debug.Log("Planted");
+                newCorn = Instantiate(CDirt);
+            }
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                CornSprout.SetActive(true);
+                newCorn.transform.GetChild(1).gameObject.SetActive(true);
 
 
 
@@ -43,8 +49,8 @@ public class CornGrowth : MonoBehaviour
             if (count == 20)
             {
 
-                CornSprout.SetActive(false);
-                Corn.SetActive(true);
+                newCorn.transform.GetChild(1).gameObject.SetActive(false);
+                newCorn.transform.GetChild(0).gameObject.SetActive(true);
                 Debug.Log("Collect!");
             }
         }

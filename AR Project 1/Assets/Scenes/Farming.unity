@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1033,7 +1033,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1109953260}
-  - component: {fileID: 1109953261}
   - component: {fileID: 1109953262}
   m_Layer: 0
   m_Name: TomatoButtonScript
@@ -1056,21 +1055,6 @@ Transform:
   m_Father: {fileID: 1162340438}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1109953261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109953259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50d1c3d03b806ee4d98a1a83922cfc62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 8583771364119127442, guid: 6b7d7cc31e4a19a4a8280a01d458fd33, type: 3}
-  prefabpos: {fileID: 8583771364119127446, guid: 6b7d7cc31e4a19a4a8280a01d458fd33,
-    type: 3}
 --- !u!114 &1109953262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1083,9 +1067,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b035e7e40f1e8147a62786eb5c32db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TDirt: {fileID: 0}
-  TomatoSprout: {fileID: 0}
-  Tomato: {fileID: 0}
+  TDirt: {fileID: 8583771364119127442, guid: 6b7d7cc31e4a19a4a8280a01d458fd33, type: 3}
+  TomatoSprout: {fileID: 6387075883905372354, guid: 85cab100fd5867346bd86be06e2bfd2a,
+    type: 3}
+  Tomato: {fileID: 4593810542592173404, guid: 7b902b9783266ed408278594c4adb651, type: 3}
 --- !u!1 &1114040580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,7 +2002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.19692993, y: -5.215088}
+  m_AnchoredPosition: {x: -0.19689941, y: -5.215088}
   m_SizeDelta: {x: 254.49359, y: 100}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1682796271
@@ -3190,7 +3175,7 @@ PrefabInstance:
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
@@ -3201,12 +3186,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1109953261}
+      objectReference: {fileID: 1109953262}
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1109953259}
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -3215,17 +3200,17 @@ PrefabInstance:
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Instantiate
-      objectReference: {fileID: 0}
-    - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Begin
       objectReference: {fileID: 0}
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TomatoButton, Assembly-CSharp
+      value: TomatoGrowth, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}

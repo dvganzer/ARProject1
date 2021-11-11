@@ -7,6 +7,7 @@ public class PumpkinGrowth : MonoBehaviour
     public GameObject PDirt;
     public GameObject PumpkinSprout;
     public GameObject Pumpkin;
+    private GameObject newPumpkin;
     void Start()
     {
       
@@ -30,18 +31,23 @@ public class PumpkinGrowth : MonoBehaviour
             yield return new WaitForSeconds(countTime);
             count++;
             Debug.Log(count);
+            if (count == 1)
+            {
+                Debug.Log("Planted");
+                newPumpkin = Instantiate(PDirt);
+            }
             if (count == 10)
             {
-                PumpkinSprout.SetActive(true);
-               
+                newPumpkin.transform.GetChild(1).gameObject.SetActive(true);
+
 
 
             }
             if (count == 20)
             {
-                PumpkinSprout.SetActive(false);
-                Pumpkin.SetActive(true);
-              
+                newPumpkin.transform.GetChild(1).gameObject.SetActive(false);
+                newPumpkin.transform.GetChild(0).gameObject.SetActive(true);
+
                 Debug.Log("Collect!");
             }
         }

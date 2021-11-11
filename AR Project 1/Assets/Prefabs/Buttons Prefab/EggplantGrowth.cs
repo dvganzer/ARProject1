@@ -7,6 +7,7 @@ public class EggplantGrowth : MonoBehaviour
     public GameObject EDirt;
     public GameObject EggplantSprout;
     public GameObject Eggplant;
+    private GameObject newEggplant;
     void Start()
     {
       
@@ -30,16 +31,21 @@ public class EggplantGrowth : MonoBehaviour
             yield return new WaitForSeconds(countTime);
             count++;
             Debug.Log(count);
+            if (count == 1)
+            {
+                Debug.Log("Planted");
+                newEggplant = Instantiate(EDirt);
+            }
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-                EggplantSprout.SetActive(true);
+                newEggplant.transform.GetChild(1).gameObject.SetActive(true);
             }
             if (count == 20)
             {
 
-                EggplantSprout.SetActive(false);
-                Eggplant.SetActive(true);         
+                newEggplant.transform.GetChild(1).gameObject.SetActive(false);
+                newEggplant.transform.GetChild(0).gameObject.SetActive(true);
                 Debug.Log("Collect!");
             }
         }

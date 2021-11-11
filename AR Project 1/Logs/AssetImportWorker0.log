@@ -15,11 +15,11 @@ D:/GDD 314/ARProject1/ARProject1/AR Project 1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61677
+52019
 Successfully changed project path to: D:/GDD 314/ARProject1/ARProject1/AR Project 1
 D:/GDD 314/ARProject1/ARProject1/AR Project 1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -35,41 +35,41 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001726 seconds.
+Registered in 0.001916 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
+- Completed reload, in  1.385 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1367ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (1386ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (435ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
+			SetupTypeCache (173ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (159ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (170ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (71ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (78ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -77,37 +77,62 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004170 seconds.
+Registered in 0.003943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to resolve plugin root directory. Re-install Lunar Mobile Console to fix the issue
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+LunarConsoleEditorInternal.EditorConstants:get_PluginRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:83)
+LunarConsoleEditorInternal.EditorConstants:get_PluginEditorRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:69)
+LunarConsoleEditorInternal.EditorConstants:get_EditorPathAndroidAAR () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:60)
+LunarConsoleEditorInternal.AndroidPlugin:SetEnabled (bool,bool) (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/AndroidPlugin.cs:38)
+LunarConsoleEditorInternal.Autorun:.cctor () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/Autorun.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs Line: 83)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LunarConsolePluginInternal.FileUtils.FixAssetPath (System.String path) [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Scripts\Utils\FileUtils.cs:71 
+  at LunarConsoleEditorInternal.AndroidPlugin.SetEnabled (System.Boolean enabled, System.Boolean retrying) [0x0000f] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\AndroidPlugin.cs:38 
+  at LunarConsoleEditorInternal.Autorun..cctor () [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\Autorun.cs:40 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.251 seconds
+- Completed reload, in  1.338 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1252ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (159ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1052ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1123ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (482ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (496ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (346ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -115,15 +140,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2434 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 99.3 MB.
-System memory in use after: 99.4 MB.
+System memory in use after: 99.5 MB.
 
-Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 2746.
-Total: 3.761700 ms (FindLiveObjects: 0.271400 ms CreateObjectMapping: 0.151300 ms MarkObjects: 3.228400 ms  DeleteObjects: 0.109300 ms)
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 2747.
+Total: 4.350700 ms (FindLiveObjects: 0.226700 ms CreateObjectMapping: 0.127100 ms MarkObjects: 3.862500 ms  DeleteObjects: 0.132600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -137,44 +162,510 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/junegull.ttf
-  artifactKey: Guid(c773c287e9e5dcb488aaaaa4a78a5091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/junegull.ttf using Guid(c773c287e9e5dcb488aaaaa4a78a5091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc90b02b4727b495ef9db0e244831a0') in 0.235084 seconds 
-  Import took 0.261796 seconds .
+  path: Assets/Prefabs/Dirt/TomatoDirt(All).prefab
+  artifactKey: Guid(6b7d7cc31e4a19a4a8280a01d458fd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/TomatoDirt(All).prefab using Guid(6b7d7cc31e4a19a4a8280a01d458fd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddf1edd54bce90b60deb92396d43eaf') in 0.245610 seconds 
+  Import took 0.279892 seconds .
 
 ========================================================================
 Received Prepare
+Refreshing native plugins compatible for Editor in 32.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.4 MB.
+System memory in use after: 57.6 MB.
+
+Unloading 136 unused Assets to reduce memory usage. Loaded Objects now: 2754.
+Total: 3.585000 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.173400 ms MarkObjects: 3.018800 ms  DeleteObjects: 0.055700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005274 seconds.
+Registered in 0.005023 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to resolve plugin root directory. Re-install Lunar Mobile Console to fix the issue
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+LunarConsoleEditorInternal.EditorConstants:get_PluginRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:83)
+LunarConsoleEditorInternal.EditorConstants:get_PluginEditorRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:69)
+LunarConsoleEditorInternal.EditorConstants:get_EditorPathAndroidAAR () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:60)
+LunarConsoleEditorInternal.AndroidPlugin:SetEnabled (bool,bool) (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/AndroidPlugin.cs:38)
+LunarConsoleEditorInternal.Autorun:.cctor () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/Autorun.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs Line: 83)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LunarConsolePluginInternal.FileUtils.FixAssetPath (System.String path) [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Scripts\Utils\FileUtils.cs:71 
+  at LunarConsoleEditorInternal.AndroidPlugin.SetEnabled (System.Boolean enabled, System.Boolean retrying) [0x0000f] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\AndroidPlugin.cs:38 
+  at LunarConsoleEditorInternal.Autorun..cctor () [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\Autorun.cs:40 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.094 seconds
+- Completed reload, in  1.587 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1094ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1588ms)
+		BeginReloadAssembly (167ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (926ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1348ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (399ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2421 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.1 MB.
+System memory in use after: 102.3 MB.
+
+Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 2757.
+Total: 4.539000 ms (FindLiveObjects: 0.501900 ms CreateObjectMapping: 0.202900 ms MarkObjects: 3.658700 ms  DeleteObjects: 0.173500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 267.887667 seconds.
+  path: Assets/XR/Loaders/AR Core Loader.asset
+  artifactKey: Guid(ca5ca547127b1aa4b877e91aad9d06b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/AR Core Loader.asset using Guid(ca5ca547127b1aa4b877e91aad9d06b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67508ee528b66035140dfbe697cf999') in 0.018996 seconds 
+  Import took 0.039600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/XR/Settings/AR Core Settings.asset
+  artifactKey: Guid(bf4f0da24436c324aa7fce418ec219ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/AR Core Settings.asset using Guid(bf4f0da24436c324aa7fce418ec219ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa55ce4e6a0f1454931900ecce33ce15') in 0.008963 seconds 
+  Import took 0.018562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/XR/Loaders/AR Core Loader.asset
+  artifactKey: Guid(ca5ca547127b1aa4b877e91aad9d06b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/AR Core Loader.asset using Guid(ca5ca547127b1aa4b877e91aad9d06b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67508ee528b66035140dfbe697cf999') in 0.004207 seconds 
+  Import took 0.008319 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to resolve plugin root directory. Re-install Lunar Mobile Console to fix the issue
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+LunarConsoleEditorInternal.EditorConstants:get_PluginRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:83)
+LunarConsoleEditorInternal.EditorConstants:get_PluginEditorRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:69)
+LunarConsoleEditorInternal.EditorConstants:get_EditorPathAndroidAAR () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:60)
+LunarConsoleEditorInternal.AndroidPlugin:SetEnabled (bool,bool) (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/AndroidPlugin.cs:38)
+LunarConsoleEditorInternal.Autorun:.cctor () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/Autorun.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs Line: 83)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LunarConsolePluginInternal.FileUtils.FixAssetPath (System.String path) [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Scripts\Utils\FileUtils.cs:71 
+  at LunarConsoleEditorInternal.AndroidPlugin.SetEnabled (System.Boolean enabled, System.Boolean retrying) [0x0000f] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\AndroidPlugin.cs:38 
+  at LunarConsoleEditorInternal.Autorun..cctor () [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\Autorun.cs:40 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1537ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1344ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (404ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (704ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (540ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2421 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 2760.
+Total: 7.325700 ms (FindLiveObjects: 0.431700 ms CreateObjectMapping: 0.460100 ms MarkObjects: 6.326500 ms  DeleteObjects: 0.104500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.298580 seconds.
+  path: Assets/Button Scripts
+  artifactKey: Guid(3e28caa7ec7d5ab4584611a2658c36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button Scripts using Guid(3e28caa7ec7d5ab4584611a2658c36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a650155670d5325328ec5b8dbdd8c312') in 0.012966 seconds 
+  Import took 0.032223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.518819 seconds.
+  path: Assets/Button Scripts/CarrotButton.cs
+  artifactKey: Guid(b1ca426c63233cd46ba73e291421fcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button Scripts/CarrotButton.cs using Guid(b1ca426c63233cd46ba73e291421fcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a42ce93a00e9a26fe50d13a949984f1') in 0.014047 seconds 
+  Import took 0.043328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.624424 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(031a4fbca87d8f846a2ce01342df7f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(031a4fbca87d8f846a2ce01342df7f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efeed6cb82cd71f92fb066009711191f') in 0.014030 seconds 
+  Import took 0.041064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.524741 seconds.
+  path: Assets/Prefabs/Buttons Prefab/CornGrowth.cs
+  artifactKey: Guid(c5b806f29ae2ea345aaa3089fde5c8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Buttons Prefab/CornGrowth.cs using Guid(c5b806f29ae2ea345aaa3089fde5c8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b959cee3a47c95dc9625bfe6b6364a5b') in 0.014903 seconds 
+  Import took 0.036076 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.093487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to resolve plugin root directory. Re-install Lunar Mobile Console to fix the issue
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+LunarConsoleEditorInternal.EditorConstants:get_PluginRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:83)
+LunarConsoleEditorInternal.EditorConstants:get_PluginEditorRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:69)
+LunarConsoleEditorInternal.EditorConstants:get_EditorPathAndroidAAR () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:60)
+LunarConsoleEditorInternal.AndroidPlugin:SetEnabled (bool,bool) (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/AndroidPlugin.cs:38)
+LunarConsoleEditorInternal.Autorun:.cctor () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/Autorun.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs Line: 83)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LunarConsolePluginInternal.FileUtils.FixAssetPath (System.String path) [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Scripts\Utils\FileUtils.cs:71 
+  at LunarConsoleEditorInternal.AndroidPlugin.SetEnabled (System.Boolean enabled, System.Boolean retrying) [0x0000f] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\AndroidPlugin.cs:38 
+  at LunarConsoleEditorInternal.Autorun..cctor () [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\Autorun.cs:40 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1215ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1009ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (76ms)
 				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2420 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2762.
+Total: 3.628300 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.102800 ms MarkObjects: 3.182100 ms  DeleteObjects: 0.084800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to resolve plugin root directory. Re-install Lunar Mobile Console to fix the issue
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+LunarConsoleEditorInternal.EditorConstants:get_PluginRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:83)
+LunarConsoleEditorInternal.EditorConstants:get_PluginEditorRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:69)
+LunarConsoleEditorInternal.EditorConstants:get_EditorPathAndroidAAR () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:60)
+LunarConsoleEditorInternal.AndroidPlugin:SetEnabled (bool,bool) (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/AndroidPlugin.cs:38)
+LunarConsoleEditorInternal.Autorun:.cctor () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/Autorun.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs Line: 83)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LunarConsolePluginInternal.FileUtils.FixAssetPath (System.String path) [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Scripts\Utils\FileUtils.cs:71 
+  at LunarConsoleEditorInternal.AndroidPlugin.SetEnabled (System.Boolean enabled, System.Boolean retrying) [0x0000f] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\AndroidPlugin.cs:38 
+  at LunarConsoleEditorInternal.Autorun..cctor () [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\Autorun.cs:40 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1208ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1042ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2421 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 2766.
+Total: 30.913200 ms (FindLiveObjects: 17.521800 ms CreateObjectMapping: 0.325300 ms MarkObjects: 12.960400 ms  DeleteObjects: 0.103600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2540.825047 seconds.
+  path: Assets/Prefabs/Buttons Prefab/NewBehaviourScript.cs
+  artifactKey: Guid(e0dda936b282c024b9f782b615dbe2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Buttons Prefab/NewBehaviourScript.cs using Guid(e0dda936b282c024b9f782b615dbe2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c736a48db73c1a81ae068d71d86c899e') in 0.016506 seconds 
+  Import took 0.041555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.947275 seconds.
+  path: Assets/Prefabs/Buttons Prefab/NewBehaviourScript.cs
+  artifactKey: Guid(e0dda936b282c024b9f782b615dbe2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Buttons Prefab/NewBehaviourScript.cs using Guid(e0dda936b282c024b9f782b615dbe2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c59d513f2be049dbfe6e28e21856193') in 0.004743 seconds 
+  Import took 0.027995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005758 seconds.
+  path: Assets/Prefabs/Buttons Prefab/NewBehaviourScript.cs
+  artifactKey: Guid(e0dda936b282c024b9f782b615dbe2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Buttons Prefab/NewBehaviourScript.cs using Guid(e0dda936b282c024b9f782b615dbe2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c59d513f2be049dbfe6e28e21856193') in 0.003366 seconds 
+  Import took 0.007215 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to resolve plugin root directory. Re-install Lunar Mobile Console to fix the issue
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+LunarConsoleEditorInternal.EditorConstants:get_PluginRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:83)
+LunarConsoleEditorInternal.EditorConstants:get_PluginEditorRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:69)
+LunarConsoleEditorInternal.EditorConstants:get_EditorPathAndroidAAR () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:60)
+LunarConsoleEditorInternal.AndroidPlugin:SetEnabled (bool,bool) (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/AndroidPlugin.cs:38)
+LunarConsoleEditorInternal.Autorun:.cctor () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/Autorun.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs Line: 83)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LunarConsolePluginInternal.FileUtils.FixAssetPath (System.String path) [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Scripts\Utils\FileUtils.cs:71 
+  at LunarConsoleEditorInternal.AndroidPlugin.SetEnabled (System.Boolean enabled, System.Boolean retrying) [0x0000f] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\AndroidPlugin.cs:38 
+  at LunarConsoleEditorInternal.Autorun..cctor () [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\Autorun.cs:40 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.236 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1239ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (988ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (305ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -185,79 +676,11 @@ Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform
 Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.5 MB.
-System memory in use after: 102.7 MB.
+System memory in use before: 102.1 MB.
+System memory in use after: 102.3 MB.
 
-Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2793.
-Total: 3.242000 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.096400 ms MarkObjects: 2.880100 ms  DeleteObjects: 0.057900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 173.444929 seconds.
-  path: Assets/Close.cs
-  artifactKey: Guid(1d651fe816ea750449df792d14dd6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Close.cs using Guid(1d651fe816ea750449df792d14dd6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2512c8d5e8b0d51b4d97b862ff7ab223') in 0.018892 seconds 
-  Import took 0.039683 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003720 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.125 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1125ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (954ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (403ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.6 MB.
-System memory in use after: 102.8 MB.
-
-Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2797.
-Total: 3.087200 ms (FindLiveObjects: 0.232800 ms CreateObjectMapping: 0.116000 ms MarkObjects: 2.681200 ms  DeleteObjects: 0.056500 ms)
+Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 2769.
+Total: 3.185600 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.781500 ms  DeleteObjects: 0.067900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -272,318 +695,74 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 420.702713 seconds.
-  path: Assets/Close.cs
-  artifactKey: Guid(1d651fe816ea750449df792d14dd6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Close.cs using Guid(1d651fe816ea750449df792d14dd6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2a6029c96c964169d1e299d479a313') in 0.008734 seconds 
-  Import took 0.026996 seconds .
+  Time since last request: 32.706009 seconds.
+  path: Assets/Prefabs/Dirt/CornDirt(All).prefab
+  artifactKey: Guid(56edbb1cc88a91441a60db10d29ecdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/CornDirt(All).prefab using Guid(56edbb1cc88a91441a60db10d29ecdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f01f362554a6a6c507af400bda9bacc') in 0.251017 seconds 
+  Import took 0.267584 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005170 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1134ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (950ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (411ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (308ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.6 MB.
-System memory in use after: 102.8 MB.
-
-Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2800.
-Total: 3.084600 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.704800 ms  DeleteObjects: 0.057000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 46.737993 seconds.
-  path: Assets/Close.cs
-  artifactKey: Guid(1d651fe816ea750449df792d14dd6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Close.cs using Guid(1d651fe816ea750449df792d14dd6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9318190ed371e7e3bc9c94b02fc83e0b') in 0.006645 seconds 
-  Import took 0.019357 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003941 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.186 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1186ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (993ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (414ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (308ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.6 MB.
-System memory in use after: 102.8 MB.
-
-Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2803.
-Total: 3.127400 ms (FindLiveObjects: 0.216500 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.746200 ms  DeleteObjects: 0.064400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004078 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1239ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1057ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (470ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (362ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.5 MB.
-System memory in use after: 102.7 MB.
-
-Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2806.
-Total: 3.109700 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.686400 ms  DeleteObjects: 0.060400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003728 seconds.
+Registered in 0.004768 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.156 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1157ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (972ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (413ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.6 MB.
-System memory in use after: 102.8 MB.
+Unable to resolve plugin root directory. Re-install Lunar Mobile Console to fix the issue
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+LunarConsoleEditorInternal.EditorConstants:get_PluginRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:83)
+LunarConsoleEditorInternal.EditorConstants:get_PluginEditorRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:69)
+LunarConsoleEditorInternal.EditorConstants:get_EditorPathAndroidAAR () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:60)
+LunarConsoleEditorInternal.AndroidPlugin:SetEnabled (bool,bool) (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/AndroidPlugin.cs:38)
+LunarConsoleEditorInternal.Autorun:.cctor () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/Autorun.cs:40)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2809.
-Total: 3.563400 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.148500 ms MarkObjects: 3.028400 ms  DeleteObjects: 0.062400 ms)
+(Filename: C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs Line: 83)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003895 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LunarConsolePluginInternal.FileUtils.FixAssetPath (System.String path) [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Scripts\Utils\FileUtils.cs:71 
+  at LunarConsoleEditorInternal.AndroidPlugin.SetEnabled (System.Boolean enabled, System.Boolean retrying) [0x0000f] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\AndroidPlugin.cs:38 
+  at LunarConsoleEditorInternal.Autorun..cctor () [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\Autorun.cs:40 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
+- Completed reload, in  1.205 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1109ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1205ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (942ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (998ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (307ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (413ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (401ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.6 MB.
-System memory in use after: 102.8 MB.
-
-Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2812.
-Total: 3.418800 ms (FindLiveObjects: 0.232700 ms CreateObjectMapping: 0.102700 ms MarkObjects: 3.017100 ms  DeleteObjects: 0.064700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -7,17 +7,14 @@ public class CarrotGrowth : MonoBehaviour
     public GameObject Dirt;
     public GameObject CarrotSprout;
     public GameObject Carrot;
+    private GameObject newCarrot;
 
     void Start()
     {
-        CarrotSprout.SetActive(false);
-        Carrot.SetActive(false);
+
 
     }
-    private void Update()
-    {
-        
-    }
+
     public void Begin()
     {
 
@@ -39,19 +36,24 @@ public class CarrotGrowth : MonoBehaviour
                 yield return new WaitForSeconds(countTime);
                 count++;
                 Debug.Log(count);
+                if (count == 1)
+                {
+                    Debug.Log("Planted");
+                    newCarrot = Instantiate(Dirt);
+                }
                 if (count == 10)
                 {
 
                     Debug.Log("Sprouted");
-                    CarrotSprout.SetActive(true);
+                    newCarrot.transform.GetChild(1).gameObject.SetActive(true);
 
 
 
                 }
                 if (count == 20)
                 {
-                    CarrotSprout.SetActive(false);
-                    Carrot.SetActive(true);
+                    newCarrot.transform.GetChild(1).gameObject.SetActive(false);
+                    newCarrot.transform.GetChild(0).gameObject.SetActive(true);
 
                     Debug.Log("Collect!");
 

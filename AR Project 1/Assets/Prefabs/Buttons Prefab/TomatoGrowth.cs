@@ -7,6 +7,7 @@ public class TomatoGrowth : MonoBehaviour
     public GameObject TDirt;
     public GameObject TomatoSprout;
     public GameObject Tomato;
+    private  GameObject newTomato;
     void Start()
     {
        
@@ -30,17 +31,23 @@ public class TomatoGrowth : MonoBehaviour
             yield return new WaitForSeconds(countTime);
             count++;
             Debug.Log(count);
+            if (count == 1)
+            {
+                Debug.Log("Planted");
+               newTomato = Instantiate(TDirt);
+            }
             if (count == 10)
             {
                 Debug.Log("Sprouted");
-               TomatoSprout.SetActive(true);       
+               newTomato.transform.GetChild(1).gameObject.SetActive(true);
             }
             if (count == 20)
             {
 
-                TomatoSprout.SetActive(false);
-                Tomato.SetActive(true);
-                
+                newTomato.transform.GetChild(1).gameObject.SetActive(false);
+                newTomato.transform.GetChild(0).gameObject.SetActive(true);
+
+
                 Debug.Log("Collect!");
             }
         }
