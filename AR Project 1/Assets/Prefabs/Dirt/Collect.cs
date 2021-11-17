@@ -12,19 +12,21 @@ public class Collect : MonoBehaviour
     {
        
     }
-    private void Update()
+    public void Update()
     {
         Money.text = Coin.ToString();
+        if (gameObject.tag == "Grown")
+        {
+           
+            Coin += 5;
+            gameObject.SetActive(false);
+            Debug.Log("Money");
+
+        }
     }
 
     public void Collected()
     {
-        if (gameObject.tag == "Grown")
-        {
-            gameObject.SetActive(false);
-            Coin += 5;
-            Debug.Log("Money");
-
-        }
+       
     }
 }

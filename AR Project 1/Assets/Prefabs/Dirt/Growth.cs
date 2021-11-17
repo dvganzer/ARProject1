@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Growth : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Growth : MonoBehaviour
     private GameObject newTomato;
     private float timeLeft;
     private bool keepTimer;
+    public Text Money;
+    private int Coin;
 
     void Start()
     {

@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 200551310680748656}
   m_Layer: 0
   m_Name: PumpkinDone
-  m_TagString: Grown
+  m_TagString: grown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

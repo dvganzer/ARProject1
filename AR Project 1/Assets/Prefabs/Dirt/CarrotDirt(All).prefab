@@ -400,6 +400,7 @@ MonoBehaviour:
   TDirt: {fileID: 3605524184414972836}
   TomatoSprout: {fileID: 3605524184416660350}
   Tomato: {fileID: 3605524185159758176}
+  Money: {fileID: 7658261011416842332, guid: 762a6ec24032fde4482063d57618c920, type: 3}
 --- !u!114 &6750662007845747668
 MonoBehaviour:
   m_ObjectHideFlags: 0
