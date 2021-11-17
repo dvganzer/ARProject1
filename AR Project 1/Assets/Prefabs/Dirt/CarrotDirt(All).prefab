@@ -192,13 +192,14 @@ GameObject:
   - component: {fileID: 1221719777173443134}
   - component: {fileID: 8861957321563552022}
   - component: {fileID: 6411328884722326281}
+  - component: {fileID: 6750662007845747668}
   m_Layer: 0
   m_Name: CarrotDirt(All)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3605524184414972832
 Transform:
   m_ObjectHideFlags: 0
@@ -399,6 +400,19 @@ MonoBehaviour:
   TDirt: {fileID: 3605524184414972836}
   TomatoSprout: {fileID: 3605524184416660350}
   Tomato: {fileID: 3605524185159758176}
+--- !u!114 &6750662007845747668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3605524184414972836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8841c6ac0825ba4dba66991d630080c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Money: {fileID: 7658261011416842332, guid: 762a6ec24032fde4482063d57618c920, type: 3}
 --- !u!1 &3605524184416660350
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +470,7 @@ GameObject:
   - component: {fileID: 3605524185159758190}
   m_Layer: 0
   m_Name: CarrotDone
-  m_TagString: Untagged
+  m_TagString: Grown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

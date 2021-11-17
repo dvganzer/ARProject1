@@ -349,13 +349,14 @@ GameObject:
   - component: {fileID: 9148930842721322995}
   - component: {fileID: 3226586204519354377}
   - component: {fileID: 8889488223894816080}
+  - component: {fileID: 649003303976346967}
   m_Layer: 0
   m_Name: TomatoDirt(All)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8583771364119127446
 Transform:
   m_ObjectHideFlags: 0
@@ -543,6 +544,19 @@ MonoBehaviour:
   TDirt: {fileID: 8583771364119127442}
   TomatoSprout: {fileID: 8583771364174741092}
   Tomato: {fileID: 8583771365388896869}
+--- !u!114 &649003303976346967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8583771364119127442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8841c6ac0825ba4dba66991d630080c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Money: {fileID: 7658261011416842332, guid: 762a6ec24032fde4482063d57618c920, type: 3}
 --- !u!1 &8583771364129965885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1040,7 @@ GameObject:
   - component: {fileID: 8583771365388896871}
   m_Layer: 0
   m_Name: Tomato Done
-  m_TagString: Untagged
+  m_TagString: Grown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

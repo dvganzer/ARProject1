@@ -60,13 +60,14 @@ GameObject:
   - component: {fileID: 1502509193375468672}
   - component: {fileID: 5368851462144647814}
   - component: {fileID: 1084834983241591636}
+  - component: {fileID: 4182800138447247105}
   m_Layer: 0
   m_Name: TurnipDirt(All)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6231451365481755894
 Transform:
   m_ObjectHideFlags: 0
@@ -254,6 +255,19 @@ MonoBehaviour:
   TDirt: {fileID: 6231451365481755891}
   TomatoSprout: {fileID: 6231451364261582839}
   Tomato: {fileID: 6231451365577436879}
+--- !u!114 &4182800138447247105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6231451365481755891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8841c6ac0825ba4dba66991d630080c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Money: {fileID: 7658261011416842332, guid: 762a6ec24032fde4482063d57618c920, type: 3}
 --- !u!1 &6231451365577436879
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,7 +280,7 @@ GameObject:
   - component: {fileID: 6231451365577436865}
   m_Layer: 0
   m_Name: Turnip
-  m_TagString: Untagged
+  m_TagString: Grown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

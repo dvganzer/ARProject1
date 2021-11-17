@@ -111,13 +111,14 @@ GameObject:
   - component: {fileID: 4410404998930678070}
   - component: {fileID: 4137863856899354968}
   - component: {fileID: 1161733693523405474}
+  - component: {fileID: 8562745843042389140}
   m_Layer: 0
   m_Name: PumpkinDirt(All)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &200551309738273955
 Transform:
   m_ObjectHideFlags: 0
@@ -305,6 +306,19 @@ MonoBehaviour:
   TDirt: {fileID: 200551309738273959}
   TomatoSprout: {fileID: 200551311093676268}
   Tomato: {fileID: 200551310680748662}
+--- !u!114 &8562745843042389140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200551309738273959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8841c6ac0825ba4dba66991d630080c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Money: {fileID: 7658261011416842332, guid: 762a6ec24032fde4482063d57618c920, type: 3}
 --- !u!1 &200551310104266165
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +427,7 @@ GameObject:
   - component: {fileID: 200551310680748656}
   m_Layer: 0
   m_Name: PumpkinDone
-  m_TagString: Untagged
+  m_TagString: Grown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

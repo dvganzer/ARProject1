@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 2636630564085931813}
   m_Layer: 0
   m_Name: CornDone
-  m_TagString: Untagged
+  m_TagString: Grown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -588,13 +588,14 @@ GameObject:
   - component: {fileID: 1502677994822086436}
   - component: {fileID: 7090321400755109794}
   - component: {fileID: 2755340167601896067}
+  - component: {fileID: 3711313803488064657}
   m_Layer: 0
   m_Name: CornDirt(All)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2636630564739527576
 Transform:
   m_ObjectHideFlags: 0
@@ -782,3 +783,16 @@ MonoBehaviour:
   TDirt: {fileID: 2636630564739527580}
   TomatoSprout: {fileID: 2636630564498735816}
   Tomato: {fileID: 2636630564085931819}
+--- !u!114 &3711313803488064657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2636630564739527580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8841c6ac0825ba4dba66991d630080c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Money: {fileID: 7658261011416842332, guid: 762a6ec24032fde4482063d57618c920, type: 3}
