@@ -108,16 +108,16 @@ GameObject:
   - component: {fileID: 200551309738273952}
   - component: {fileID: 200551309738273953}
   - component: {fileID: 200551309738273958}
-  - component: {fileID: 2708359074157476076}
   - component: {fileID: 4410404998930678070}
   - component: {fileID: 4137863856899354968}
+  - component: {fileID: 1161733693523405474}
   m_Layer: 0
   m_Name: PumpkinDirt(All)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &200551309738273955
 Transform:
   m_ObjectHideFlags: 0
@@ -197,21 +197,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: fbd33e75d8d4bf9479c9cb59e83a9e37, type: 3}
---- !u!114 &2708359074157476076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200551309738273959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5212639c529ab143990c9eb5f4a47b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PDirt: {fileID: 200551309738273959}
-  PumpkinSprout: {fileID: 200551311093676268}
-  Pumpkin: {fileID: 200551310680748662}
 --- !u!65 &4410404998930678070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -305,6 +290,21 @@ MonoBehaviour:
   m_OnObjectPlaced:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1161733693523405474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200551309738273959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d1aed60dd68ab408a85b91fcd013f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TDirt: {fileID: 200551309738273959}
+  TomatoSprout: {fileID: 200551311093676268}
+  Tomato: {fileID: 200551310680748662}
 --- !u!1 &200551310104266165
 GameObject:
   m_ObjectHideFlags: 0

@@ -678,16 +678,16 @@ GameObject:
   - component: {fileID: 2561532347900494042}
   - component: {fileID: 2561532347900494041}
   - component: {fileID: 2561532347900494040}
-  - component: {fileID: 490646877400278387}
   - component: {fileID: 5901492214870748920}
   - component: {fileID: 1670757978851095724}
+  - component: {fileID: 7740372160302981163}
   m_Layer: 0
   m_Name: EggplantDirt(All)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2561532347900494043
 Transform:
   m_ObjectHideFlags: 0
@@ -767,21 +767,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: fbd33e75d8d4bf9479c9cb59e83a9e37, type: 3}
---- !u!114 &490646877400278387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2561532347900494047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5ca93c1a4a1f3e44b49c2353cb5c460, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EDirt: {fileID: 2561532347900494047}
-  EggplantSprout: {fileID: 2561532347239135567}
-  Eggplant: {fileID: 2561532348557608629}
 --- !u!65 &5901492214870748920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -875,6 +860,21 @@ MonoBehaviour:
   m_OnObjectPlaced:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7740372160302981163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561532347900494047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d1aed60dd68ab408a85b91fcd013f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TDirt: {fileID: 2561532347900494047}
+  TomatoSprout: {fileID: 2561532347239135567}
+  Tomato: {fileID: 2561532348557608629}
 --- !u!1 &2561532348557608629
 GameObject:
   m_ObjectHideFlags: 0

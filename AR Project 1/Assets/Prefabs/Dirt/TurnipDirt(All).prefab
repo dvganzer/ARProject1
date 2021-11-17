@@ -57,16 +57,16 @@ GameObject:
   - component: {fileID: 6231451365481755895}
   - component: {fileID: 6231451365481755892}
   - component: {fileID: 6231451365481755893}
-  - component: {fileID: 4968342511464484357}
   - component: {fileID: 1502509193375468672}
   - component: {fileID: 5368851462144647814}
+  - component: {fileID: 1084834983241591636}
   m_Layer: 0
   m_Name: TurnipDirt(All)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6231451365481755894
 Transform:
   m_ObjectHideFlags: 0
@@ -146,21 +146,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: fbd33e75d8d4bf9479c9cb59e83a9e37, type: 3}
---- !u!114 &4968342511464484357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6231451365481755891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 943dc9afc32895d448ab58357e8656ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TuDirt: {fileID: 6231451365481755891}
-  TurnipSprout: {fileID: 6231451364261582839}
-  Turnip: {fileID: 6231451365577436879}
 --- !u!65 &1502509193375468672
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -254,6 +239,21 @@ MonoBehaviour:
   m_OnObjectPlaced:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1084834983241591636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6231451365481755891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d1aed60dd68ab408a85b91fcd013f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TDirt: {fileID: 6231451365481755891}
+  TomatoSprout: {fileID: 6231451364261582839}
+  Tomato: {fileID: 6231451365577436879}
 --- !u!1 &6231451365577436879
 GameObject:
   m_ObjectHideFlags: 0

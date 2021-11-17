@@ -39,7 +39,7 @@ public class Growth : MonoBehaviour
                 TDirt.transform.GetChild(0).gameObject.SetActive(true);
                 Debug.Log("Collect!");
             }
-            if (seconds == 60)
+            if (seconds == 40)
             {
                 TDirt.transform.GetChild(1).gameObject.SetActive(false);
                 TDirt.transform.GetChild(0).gameObject.SetActive(false);

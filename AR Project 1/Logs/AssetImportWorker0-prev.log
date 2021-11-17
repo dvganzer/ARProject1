@@ -15,11 +15,11 @@ D:/GDD 314/ARProject1/ARProject1/AR Project 1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54333
+52546
 Successfully changed project path to: D:/GDD 314/ARProject1/ARProject1/AR Project 1
 D:/GDD 314/ARProject1/ARProject1/AR Project 1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 80.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -35,120 +35,95 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001949 seconds.
+Registered in 0.001701 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 40.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.376 seconds
+- Completed reload, in  1.265 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1376ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (476ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (407ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
+			RebuildScriptCaches (28ms)
 			SetupLoadedEditorAssemblies (158ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004059 seconds.
+Registered in 0.003748 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to resolve plugin root directory. Re-install Lunar Mobile Console to fix the issue
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogErrorFormat (string,object[])
-LunarConsoleEditorInternal.EditorConstants:get_PluginRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:83)
-LunarConsoleEditorInternal.EditorConstants:get_PluginEditorRootDirectory () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:69)
-LunarConsoleEditorInternal.EditorConstants:get_EditorPathAndroidAAR () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs:60)
-LunarConsoleEditorInternal.AndroidPlugin:SetEnabled (bool,bool) (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/AndroidPlugin.cs:38)
-LunarConsoleEditorInternal.Autorun:.cctor () (at C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/Autorun.cs:40)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: C:/Users/bippe/Documents/GitHub/ARProject1/AR Project 1/Assets/LunarConsole/Editor/EditorConstants.cs Line: 83)
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at LunarConsolePluginInternal.FileUtils.FixAssetPath (System.String path) [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Scripts\Utils\FileUtils.cs:71 
-  at LunarConsoleEditorInternal.AndroidPlugin.SetEnabled (System.Boolean enabled, System.Boolean retrying) [0x0000f] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\AndroidPlugin.cs:38 
-  at LunarConsoleEditorInternal.Autorun..cctor () [0x00000] in C:\Users\bippe\Documents\GitHub\ARProject1\AR Project 1\Assets\LunarConsole\Editor\Autorun.cs:40 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.363 seconds
+- Completed reload, in  1.254 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1364ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (1254ms)
+		BeginReloadAssembly (164ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1158ms)
-			LoadAssemblies (108ms)
+		EndReloadAssembly (1030ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (297ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (586ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (471ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (456ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (334ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2435 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.5 MB.
+System memory in use before: 99.2 MB.
+System memory in use after: 99.4 MB.
 
 Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 2748.
-Total: 3.353100 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.119300 ms MarkObjects: 2.887300 ms  DeleteObjects: 0.108500 ms)
+Total: 3.153700 ms (FindLiveObjects: 0.212400 ms CreateObjectMapping: 0.100500 ms MarkObjects: 2.744800 ms  DeleteObjects: 0.095000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -162,9 +137,201 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Prefabs/Dirt/CarrotButtonScript.prefab
+  artifactKey: Guid(28d25f9e6ab78d243a503cabe00f5256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/CarrotButtonScript.prefab using Guid(28d25f9e6ab78d243a503cabe00f5256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a3af7e72acbb501e76da6dcc49982a') in 0.060032 seconds 
+  Import took 0.063218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/Dirt/CarrotDirt(All).prefab
+  artifactKey: Guid(ce726ce595204d14eac8f135f183518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/CarrotDirt(All).prefab using Guid(ce726ce595204d14eac8f135f183518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbf5d33f28592cb7586eb7c4334d52c') in 0.240829 seconds 
+  Import took 0.244191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/Dirt/CornButtonScript.prefab
+  artifactKey: Guid(27f78a248cba30945b998dac4b88b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/CornButtonScript.prefab using Guid(27f78a248cba30945b998dac4b88b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b99d3573501f041e6860f9bd473ab7') in 0.031514 seconds 
+  Import took 0.035043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/Dirt/PumpkinDirt(All).prefab
+  artifactKey: Guid(f97d022bd9d3ed441a71fa4cd80ba146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/PumpkinDirt(All).prefab using Guid(f97d022bd9d3ed441a71fa4cd80ba146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201790c217404829c78f5371ced8fe65') in 0.085937 seconds 
+  Import took 0.089441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/Dirt/CornButtonScript.prefab
+  artifactKey: Guid(27f78a248cba30945b998dac4b88b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/CornButtonScript.prefab using Guid(27f78a248cba30945b998dac4b88b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b99d3573501f041e6860f9bd473ab7') in 0.003467 seconds 
+  Import took 0.006548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Prefabs/Dirt/TomatoDirt(All).prefab
+  artifactKey: Guid(6b7d7cc31e4a19a4a8280a01d458fd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/TomatoDirt(All).prefab using Guid(6b7d7cc31e4a19a4a8280a01d458fd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a07532d82c1c4c07ccbfcbb45d7205c') in 0.082492 seconds 
+  Import took 0.086076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Prefabs/Dirt/TurnipDirt(All).prefab
+  artifactKey: Guid(653e89d8313cb6043b06506d85635582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/TurnipDirt(All).prefab using Guid(653e89d8313cb6043b06506d85635582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f60bc46a9846ed141eb0190ec8b1955') in 0.082680 seconds 
+  Import took 0.094445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/Dirt/CornDirt(All).prefab
+  artifactKey: Guid(56edbb1cc88a91441a60db10d29ecdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/CornDirt(All).prefab using Guid(56edbb1cc88a91441a60db10d29ecdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e90c63506c2a936ae9f451b8dd0acd') in 0.082864 seconds 
+  Import took 0.086192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/Dirt/EggplantDirt(All).prefab
+  artifactKey: Guid(c93c4389c2a211c40ae5f16b5f4e1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/EggplantDirt(All).prefab using Guid(c93c4389c2a211c40ae5f16b5f4e1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8434a3c7297efe0dd5b97cd63e3949') in 0.082486 seconds 
+  Import took 0.085856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.799986 seconds.
+  path: Assets/Prefabs/Carrot.prefab
+  artifactKey: Guid(2c11258ad45a5254faad030354fd5f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Carrot.prefab using Guid(2c11258ad45a5254faad030354fd5f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869f7255f65db529bdebcb252d44867b') in 0.008599 seconds 
+  Import took 0.012592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012807 seconds.
+  path: Assets/Prefabs/Corn.prefab
+  artifactKey: Guid(1595bce95912f434c924304f8366e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Corn.prefab using Guid(1595bce95912f434c924304f8366e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7da16173976bb3f91dbc0bf1783c189') in 0.007426 seconds 
+  Import took 0.011020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005353 seconds.
+  path: Assets/Prefabs/Eggplant.prefab
+  artifactKey: Guid(3eb9c2808e409e94280e7a37a59b67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Eggplant.prefab using Guid(3eb9c2808e409e94280e7a37a59b67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971803d06f105b9fef6fe023cd7033f7') in 0.007376 seconds 
+  Import took 0.037480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011999 seconds.
+  path: Assets/Prefabs/pumpkin.prefab
+  artifactKey: Guid(6b045322b55ce01448cf71b0af8df663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pumpkin.prefab using Guid(6b045322b55ce01448cf71b0af8df663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b871add0a4b13f5064732b1d3d0fc87') in 0.007682 seconds 
+  Import took 0.011217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
   path: Assets/Prefabs/tomato.prefab
   artifactKey: Guid(8b546f5fea7847d4dbbe192b543b8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tomato.prefab using Guid(8b546f5fea7847d4dbbe192b543b8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec78beae170648ee81f3a5b0240be8f') in 0.113648 seconds 
-  Import took 0.117804 seconds .
+Start importing Assets/Prefabs/tomato.prefab using Guid(8b546f5fea7847d4dbbe192b543b8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83c6e3b73d1f8eb94d86b5916294a99') in 0.008635 seconds 
+  Import took 0.012210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/turnip.prefab
+  artifactKey: Guid(a1f540cc4ce37264a9148c9e8085ee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/turnip.prefab using Guid(a1f540cc4ce37264a9148c9e8085ee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84ec7a0766f2c2b5503ccd753ecc3b1') in 0.008538 seconds 
+  Import took 0.012549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Prefabs/TurnipDirt.prefab
+  artifactKey: Guid(332e08912fd4e414582fa7d570943c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnipDirt.prefab using Guid(332e08912fd4e414582fa7d570943c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c7fb1445fc70d2eca84b9ce8440fdf') in 0.085197 seconds 
+  Import took 0.088633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.094671 seconds.
+  path: Assets/Prefabs/Dirt/CarrotDirt(All).prefab
+  artifactKey: Guid(ce726ce595204d14eac8f135f183518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dirt/CarrotDirt(All).prefab using Guid(ce726ce595204d14eac8f135f183518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59acb756b6903165bb8d5f366d8c728') in 0.086009 seconds 
+  Import took 0.089779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.679148 seconds.
+  path: Assets/Prefabs/Buttons Prefab/TomatoGrowth.cs
+  artifactKey: Guid(9b035e7e40f1e8147a62786eb5c32db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Buttons Prefab/TomatoGrowth.cs using Guid(9b035e7e40f1e8147a62786eb5c32db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92459a5a55d93e60636fee18b45ef6f9') in 0.076581 seconds 
+  Import took 0.080546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.089482 seconds.
+  path: Assets/Prefabs/Buttons Prefab/Growth.cs
+  artifactKey: Guid(46d1aed60dd68ab408a85b91fcd013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Buttons Prefab/Growth.cs using Guid(46d1aed60dd68ab408a85b91fcd013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803914583a5be6bb8fba77917a943019') in 0.006489 seconds 
+  Import took 0.010071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.956477 seconds.
+  path: Assets/Prefabs/Buttons Prefab/Growth.cs
+  artifactKey: Guid(46d1aed60dd68ab408a85b91fcd013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Buttons Prefab/Growth.cs using Guid(46d1aed60dd68ab408a85b91fcd013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba21632e41dd4c83f0b9b09981a08a5') in 0.002180 seconds 
+  Import took 0.006037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.878660 seconds.
+  path: Assets/Button Scripts/CornButton.cs
+  artifactKey: Guid(98107b13a70d8a745aa7f4fb63e8a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button Scripts/CornButton.cs using Guid(98107b13a70d8a745aa7f4fb63e8a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4268c9c41a01db27820c617dc22736a2') in 0.006451 seconds 
+  Import took 0.010250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001932 seconds.
+  path: Assets/Button Scripts/CornButton.cs
+  artifactKey: Guid(98107b13a70d8a745aa7f4fb63e8a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button Scripts/CornButton.cs using Guid(98107b13a70d8a745aa7f4fb63e8a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4268c9c41a01db27820c617dc22736a2') in 0.001976 seconds 
+  Import took 0.006252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.531719 seconds.
+  path: Assets/Button Scripts/EggplantButton.cs
+  artifactKey: Guid(b70b3504dc034704ca2bb79a16e85cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button Scripts/EggplantButton.cs using Guid(b70b3504dc034704ca2bb79a16e85cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d3be795caa5c24f6601d0ca3cf55d1') in 0.005562 seconds 
+  Import took 0.008922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.039585 seconds.
+  path: Assets/Button Scripts/TomatoButton.cs
+  artifactKey: Guid(50d1c3d03b806ee4d98a1a83922cfc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button Scripts/TomatoButton.cs using Guid(50d1c3d03b806ee4d98a1a83922cfc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a542802a1305b6dd082b15fb737a62e') in 0.009216 seconds 
+  Import took 0.012462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534555 seconds.
+  path: Assets/Button Scripts/TurnipButton.cs
+  artifactKey: Guid(89542f439fb225344b52b87845367db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button Scripts/TurnipButton.cs using Guid(89542f439fb225344b52b87845367db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e842581cdd8f7844c34c7d62bfa42a0') in 0.006629 seconds 
+  Import took 0.010585 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
