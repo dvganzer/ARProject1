@@ -28,8 +28,7 @@ public class CarrotGrowth : MonoBehaviour
 
     IEnumerator Sprout(float countTime = 1f)
     {
-        if (Dirt.tag == "CarrotDirt(All)(Clone)")
-        {
+        
             int count = 0;
             while (count < 20)
             {
@@ -39,7 +38,7 @@ public class CarrotGrowth : MonoBehaviour
                 if (count == 1)
                 {
                     Debug.Log("Planted");
-                    newCarrot = Instantiate(Dirt);
+                    
                 }
                 if (count == 10)
                 {
@@ -60,8 +59,10 @@ public class CarrotGrowth : MonoBehaviour
 
                 }
             }
+           
             OnDisable();
-        }
+
+        
 
 
         

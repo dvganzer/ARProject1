@@ -189,7 +189,6 @@ GameObject:
   - component: {fileID: 3605524184414972835}
   - component: {fileID: 3605524184414972834}
   - component: {fileID: 3605524184414972837}
-  - component: {fileID: 6054946415506838011}
   - component: {fileID: 1221719777173443134}
   - component: {fileID: 8861957321563552022}
   m_Layer: 0
@@ -278,21 +277,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: fbd33e75d8d4bf9479c9cb59e83a9e37, type: 3}
---- !u!114 &6054946415506838011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3605524184414972836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbaf2d334fae05142add43dbee9ec0a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dirt: {fileID: 3605524184414972836}
-  CarrotSprout: {fileID: 3605524184416660350}
-  Carrot: {fileID: 3605524185159758176}
 --- !u!65 &1221719777173443134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -382,7 +366,20 @@ MonoBehaviour:
     m_Bits: 0
   m_ObjectPlaced:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 726041216055330035, guid: 28d25f9e6ab78d243a503cabe00f5256,
+          type: 3}
+        m_TargetAssemblyTypeName: CarrotGrowth, Assembly-CSharp
+        m_MethodName: Begin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnObjectPlaced:
     m_PersistentCalls:
       m_Calls: []

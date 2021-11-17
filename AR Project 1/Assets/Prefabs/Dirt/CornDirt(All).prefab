@@ -683,12 +683,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2636630564739527580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5b806f29ae2ea345aaa3089fde5c8fd, type: 3}
+  m_Script: {fileID: 11500000, guid: dbaf2d334fae05142add43dbee9ec0a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CDirt: {fileID: 2636630564739527580}
-  CornSprout: {fileID: 2636630564498735816}
-  Corn: {fileID: 2636630564085931819}
+  Dirt: {fileID: 2636630564739527580}
+  CarrotSprout: {fileID: 7369337823251637895, guid: 28f44f26bfbdfb543b7a9d4f213d67dc,
+    type: 3}
+  Carrot: {fileID: 6517601803591209015, guid: 4bb60e82681ae514a95cdf144c79b787, type: 3}
 --- !u!65 &1502677994822086436
 BoxCollider:
   m_ObjectHideFlags: 0

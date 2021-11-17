@@ -304,10 +304,10 @@ RectTransform:
   m_Father: {fileID: 336522380}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 284.19745, y: 11.933472}
-  m_SizeDelta: {x: 170.1389, y: 1198.1884}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -90.80255, y: -655.0665}
+  m_SizeDelta: {x: 170.13892, y: 1198.1884}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &213304284
 MonoBehaviour:
@@ -597,7 +597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 380846274}
-  - component: {fileID: 380846276}
+  - component: {fileID: 380846275}
   m_Layer: 0
   m_Name: TurnipButtonScript
   m_TagString: Untagged
@@ -619,7 +619,7 @@ Transform:
   m_Father: {fileID: 1162340438}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &380846276
+--- !u!114 &380846275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -628,13 +628,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 380846273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 943dc9afc32895d448ab58357e8656ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 89542f439fb225344b52b87845367db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TuDirt: {fileID: 6231451365481755891, guid: 653e89d8313cb6043b06506d85635582, type: 3}
-  TurnipSprout: {fileID: 7760014326500751423, guid: ff66d4c189da6c04293ee21a21fcfac2,
+  prefab: {fileID: 6231451365481755891, guid: 653e89d8313cb6043b06506d85635582, type: 3}
+  prefabpos: {fileID: 6231451365481755894, guid: 653e89d8313cb6043b06506d85635582,
     type: 3}
-  Turnip: {fileID: 3388463549390709119, guid: 88a6d389e0ef73b4b93570095411c8cb, type: 3}
 --- !u!1 &410058568
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,53 +791,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481596192}
   m_CullTransparentMesh: 1
---- !u!1 &514679603
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 514679604}
-  - component: {fileID: 514679606}
-  m_Layer: 0
-  m_Name: CarrotButtonScript
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &514679604
+--- !u!4 &514679604 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514679603}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1162340438}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &514679606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514679603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbaf2d334fae05142add43dbee9ec0a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dirt: {fileID: 3605524184414972836, guid: ce726ce595204d14eac8f135f183518b, type: 3}
-  CarrotSprout: {fileID: 7369337823251637895, guid: 28f44f26bfbdfb543b7a9d4f213d67dc,
+  m_CorrespondingSourceObject: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
     type: 3}
-  Carrot: {fileID: 5009103778121417165, guid: 2002baf2c11400e409d13b044c4bc045, type: 3}
+  m_PrefabInstance: {fileID: 726041216367994821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &601798178
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 601798179}
-  - component: {fileID: 601798181}
+  - component: {fileID: 601798180}
   m_Layer: 0
   m_Name: PumpkinButtonScript
   m_TagString: Untagged
@@ -870,7 +828,7 @@ Transform:
   m_Father: {fileID: 1162340438}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &601798181
+--- !u!114 &601798180
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -879,13 +837,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 601798178}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5212639c529ab143990c9eb5f4a47b6, type: 3}
+  m_Script: {fileID: 11500000, guid: dc0fd04be7d6fea47b32570ea2f1a2d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PDirt: {fileID: 200551309738273959, guid: f97d022bd9d3ed441a71fa4cd80ba146, type: 3}
-  PumpkinSprout: {fileID: 7751885202331472385, guid: d7cb83fe05a3be6499807807db490567,
+  prefab: {fileID: 200551309738273959, guid: f97d022bd9d3ed441a71fa4cd80ba146, type: 3}
+  prefabpos: {fileID: 200551309738273955, guid: f97d022bd9d3ed441a71fa4cd80ba146,
     type: 3}
-  Pumpkin: {fileID: 1291742494858533866, guid: cc847af85e196354dade24f72b217055, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,7 +945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1109953260}
-  - component: {fileID: 1109953262}
+  - component: {fileID: 1109953261}
   m_Layer: 0
   m_Name: TomatoButtonScript
   m_TagString: Untagged
@@ -1010,7 +967,7 @@ Transform:
   m_Father: {fileID: 1162340438}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1109953262
+--- !u!114 &1109953261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1019,13 +976,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1109953259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b035e7e40f1e8147a62786eb5c32db5, type: 3}
+  m_Script: {fileID: 11500000, guid: 50d1c3d03b806ee4d98a1a83922cfc62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TDirt: {fileID: 8583771364119127442, guid: 6b7d7cc31e4a19a4a8280a01d458fd33, type: 3}
-  TomatoSprout: {fileID: 6387075883905372354, guid: 85cab100fd5867346bd86be06e2bfd2a,
+  prefab: {fileID: 8583771364119127442, guid: 6b7d7cc31e4a19a4a8280a01d458fd33, type: 3}
+  prefabpos: {fileID: 8583771364119127446, guid: 6b7d7cc31e4a19a4a8280a01d458fd33,
     type: 3}
-  Tomato: {fileID: 4593810542592173404, guid: 7b902b9783266ed408278594c4adb651, type: 3}
+  on: 0
 --- !u!1 &1114040580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,36 +1183,6 @@ Transform:
   m_Father: {fileID: 336522380}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1201890842
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1201890843}
-  m_Layer: 0
-  m_Name: Object Interactables
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1201890843
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201890842}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1236237313 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 683509653926046595, guid: 120ec2d2fe7423b4e983fc108a174960,
@@ -1347,7 +1274,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1431540824}
-  - component: {fileID: 1431540826}
+  - component: {fileID: 1431540825}
   m_Layer: 0
   m_Name: EggplantButtonScript
   m_TagString: Untagged
@@ -1369,7 +1296,7 @@ Transform:
   m_Father: {fileID: 1162340438}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1431540826
+--- !u!114 &1431540825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1378,13 +1305,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1431540823}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5ca93c1a4a1f3e44b49c2353cb5c460, type: 3}
+  m_Script: {fileID: 11500000, guid: b70b3504dc034704ca2bb79a16e85cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EDirt: {fileID: 2561532347900494047, guid: c93c4389c2a211c40ae5f16b5f4e1943, type: 3}
-  EggplantSprout: {fileID: 5170847245999933491, guid: ffdbdb3cbf2cb8e4991564fdf94077b6,
-    type: 3}
-  Eggplant: {fileID: 3266766923755249142, guid: 73b2c698c3f8d5548bb1628f1437d9c6,
+  prefab: {fileID: 2561532347900494047, guid: c93c4389c2a211c40ae5f16b5f4e1943, type: 3}
+  prefabpos: {fileID: 2561532347900494043, guid: c93c4389c2a211c40ae5f16b5f4e1943,
     type: 3}
 --- !u!1 &1443578052
 GameObject:
@@ -1701,53 +1626,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552361643}
   m_CullTransparentMesh: 1
---- !u!1 &1575139359
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1575139360}
-  - component: {fileID: 1575139362}
-  m_Layer: 0
-  m_Name: CornButtonScript
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1575139360
+--- !u!4 &1575139360 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575139359}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1162340438}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1575139362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575139359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0dda936b282c024b9f782b615dbe2f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CDirt: {fileID: 2636630564739527580, guid: 56edbb1cc88a91441a60db10d29ecdb1, type: 3}
-  CornSprout: {fileID: 1849027781765730765, guid: 77009f5926121274c9b6e1039d5ad9d9,
+  m_CorrespondingSourceObject: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
     type: 3}
-  Corn: {fileID: 6517601803591209015, guid: 4bb60e82681ae514a95cdf144c79b787, type: 3}
+  m_PrefabInstance: {fileID: 4295301760733642343}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1577749883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,13 +2219,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 514679606}
+      objectReference: {fileID: 726041216367994823}
     - target: {fileID: 683509653545417631, guid: 120ec2d2fe7423b4e983fc108a174960,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 6054946415506838011, guid: ce726ce595204d14eac8f135f183518b,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 683509653545417631, guid: 120ec2d2fe7423b4e983fc108a174960,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -2355,22 +2238,22 @@ PrefabInstance:
     - target: {fileID: 683509653545417631, guid: 120ec2d2fe7423b4e983fc108a174960,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Begin
+      value: Instantiate
       objectReference: {fileID: 0}
     - target: {fileID: 683509653545417631, guid: 120ec2d2fe7423b4e983fc108a174960,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Begin
+      value: Instantiate
       objectReference: {fileID: 0}
     - target: {fileID: 683509653545417631, guid: 120ec2d2fe7423b4e983fc108a174960,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CarrotGrowth, Assembly-CSharp
+      value: CarrotButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 683509653545417631, guid: 120ec2d2fe7423b4e983fc108a174960,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: CarrotGrowth, Assembly-CSharp
+      value: CarrotButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 683509653545417631, guid: 120ec2d2fe7423b4e983fc108a174960,
         type: 3}
@@ -2489,6 +2372,189 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 120ec2d2fe7423b4e983fc108a174960, type: 3}
+--- !u!1001 &726041216367994821
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1162340438}
+    m_Modifications:
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330033, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726041216055330038, guid: 28d25f9e6ab78d243a503cabe00f5256,
+        type: 3}
+      propertyPath: m_Name
+      value: CarrotButtonScript
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 726041216055330035, guid: 28d25f9e6ab78d243a503cabe00f5256, type: 3}
+    - {fileID: 726041216055330032, guid: 28d25f9e6ab78d243a503cabe00f5256, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 28d25f9e6ab78d243a503cabe00f5256, type: 3}
+--- !u!1 &726041216367994822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 726041216055330038, guid: 28d25f9e6ab78d243a503cabe00f5256,
+    type: 3}
+  m_PrefabInstance: {fileID: 726041216367994821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &726041216367994823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726041216367994822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ca426c63233cd46ba73e291421fcb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3605524184414972836, guid: ce726ce595204d14eac8f135f183518b, type: 3}
+  prefabpos: {fileID: 3605524184414972832, guid: ce726ce595204d14eac8f135f183518b,
+    type: 3}
+--- !u!1001 &4295301760733642343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1162340438}
+    m_Modifications:
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964871, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295301762253964920, guid: 27f78a248cba30945b998dac4b88b6d2,
+        type: 3}
+      propertyPath: m_Name
+      value: CornButtonScript
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4295301762253964869, guid: 27f78a248cba30945b998dac4b88b6d2, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 27f78a248cba30945b998dac4b88b6d2, type: 3}
+--- !u!1 &4295301760733642344 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4295301762253964920, guid: 27f78a248cba30945b998dac4b88b6d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 4295301760733642343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4295301760733642345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4295301760733642344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98107b13a70d8a745aa7f4fb63e8a805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2636630564739527580, guid: 56edbb1cc88a91441a60db10d29ecdb1, type: 3}
+  prefabpos: {fileID: 2636630564739527576, guid: 56edbb1cc88a91441a60db10d29ecdb1,
+    type: 3}
 --- !u!1001 &4501659428981975696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2620,7 +2686,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 380846276}
+      objectReference: {fileID: 380846275}
     - target: {fileID: 4501659428773442527, guid: 2f83d2c8743551f47a92bb1e17027c3a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2634,7 +2700,7 @@ PrefabInstance:
     - target: {fileID: 4501659428773442527, guid: 2f83d2c8743551f47a92bb1e17027c3a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Begin
+      value: Instantiate
       objectReference: {fileID: 0}
     - target: {fileID: 4501659428773442527, guid: 2f83d2c8743551f47a92bb1e17027c3a,
         type: 3}
@@ -2644,7 +2710,7 @@ PrefabInstance:
     - target: {fileID: 4501659428773442527, guid: 2f83d2c8743551f47a92bb1e17027c3a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TurnipGrowth, Assembly-CSharp
+      value: TurnipButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4501659428773442527, guid: 2f83d2c8743551f47a92bb1e17027c3a,
         type: 3}
@@ -2784,7 +2850,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 601798181}
+      objectReference: {fileID: 601798180}
     - target: {fileID: 5162357300094934805, guid: 8928af51312d62341b7a3a006cb5aab7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2798,7 +2864,7 @@ PrefabInstance:
     - target: {fileID: 5162357300094934805, guid: 8928af51312d62341b7a3a006cb5aab7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Begin
+      value: Instantiate
       objectReference: {fileID: 0}
     - target: {fileID: 5162357300094934805, guid: 8928af51312d62341b7a3a006cb5aab7,
         type: 3}
@@ -2808,7 +2874,7 @@ PrefabInstance:
     - target: {fileID: 5162357300094934805, guid: 8928af51312d62341b7a3a006cb5aab7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PumpkinGrowth, Assembly-CSharp
+      value: PumpkinButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5162357300094934805, guid: 8928af51312d62341b7a3a006cb5aab7,
         type: 3}
@@ -2958,7 +3024,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1575139362}
+      objectReference: {fileID: 4295301760733642345}
     - target: {fileID: 5655463601701992991, guid: c991d057e4076664d92c864bdab96854,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2972,7 +3038,7 @@ PrefabInstance:
     - target: {fileID: 5655463601701992991, guid: c991d057e4076664d92c864bdab96854,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Begin
+      value: Instantiate
       objectReference: {fileID: 0}
     - target: {fileID: 5655463601701992991, guid: c991d057e4076664d92c864bdab96854,
         type: 3}
@@ -2982,7 +3048,7 @@ PrefabInstance:
     - target: {fileID: 5655463601701992991, guid: c991d057e4076664d92c864bdab96854,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CornGrowth, Assembly-CSharp
+      value: CornButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5655463601701992991, guid: c991d057e4076664d92c864bdab96854,
         type: 3}
@@ -3127,7 +3193,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1109953262}
+      objectReference: {fileID: 1109953261}
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -3141,7 +3207,7 @@ PrefabInstance:
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Begin
+      value: Instantiate
       objectReference: {fileID: 0}
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
@@ -3151,7 +3217,7 @@ PrefabInstance:
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TomatoGrowth, Assembly-CSharp
+      value: TomatoButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6794579612942867491, guid: 4fb03e9e7c1b35342b58945847051fc0,
         type: 3}
@@ -3186,7 +3252,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1431540826}
+      objectReference: {fileID: 1431540825}
     - target: {fileID: 7374603354938210704, guid: 37c9b29ccfe999646bd20cae0df812ef,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -3200,7 +3266,7 @@ PrefabInstance:
     - target: {fileID: 7374603354938210704, guid: 37c9b29ccfe999646bd20cae0df812ef,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Begin
+      value: Instantiate
       objectReference: {fileID: 0}
     - target: {fileID: 7374603354938210704, guid: 37c9b29ccfe999646bd20cae0df812ef,
         type: 3}
@@ -3210,7 +3276,7 @@ PrefabInstance:
     - target: {fileID: 7374603354938210704, guid: 37c9b29ccfe999646bd20cae0df812ef,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: EggplantGrowth, Assembly-CSharp
+      value: EggplantButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7374603354938210704, guid: 37c9b29ccfe999646bd20cae0df812ef,
         type: 3}
