@@ -27,7 +27,7 @@ public class Growth : MonoBehaviour
         {
             timeLeft += Time.deltaTime;
             int seconds = (int)timeLeft % 60;
-            Debug.Log(seconds);
+            
 
 
 
@@ -42,13 +42,17 @@ public class Growth : MonoBehaviour
                 TDirt.transform.GetChild(0).gameObject.SetActive(true);
                 Debug.Log("Collect!");
             }
-            if (seconds == 40)
+            if (seconds == 30)
             {
                 TDirt.transform.GetChild(1).gameObject.SetActive(false);
                 TDirt.transform.GetChild(0).gameObject.SetActive(false);
                 TDirt.SetActive(false);
                 Debug.Log("Old");
 
+            }
+            else
+            {
+                seconds = 0;
             }
         }
 
